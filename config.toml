@@ -1,33 +1,78 @@
 baseURL = 'http://localhost/'
 languageCode = 'en-us'
-title = 'Jules BOBEUF e-portfolio'
+defaultContentLanguage = 'en'
+title = 'Jules Bobeuf'
 theme = 'iutdelens'
-paginate = 2
+paginate = 4
 
-[[menu.main]]
-    name = "Blog"
-    url = "/blog"
+[languages.en]
+languageName = ":en:"
 
-[[menu.main]]
-    name = "Projets"
-    url = "/projets"
+[languages.en.params]
+author = "Jules Bobeuf"
+info = ["Student", "Back End Dev"]
+description = "Personnal site of Jules Bobeuf"
+keywords = "blog,developer,java,c#,python"
 
-[[menu.social]]
-    name = "GitLab"
-    url = "https://gitlab.univ-artois.fr/jules_bobeuf"
+[languages.fr.params]
+author = "Jules Bobeuf"
+info = ["Etudiant", "Back End Dev"]
+description = "Site personel de Jules Bobeuf"
+keywords = "blog,developpeur,java,c#,python"
+
+[[languages.en.menu.main]]
+name = "Projects"
+weight = 1
+url = "projets/"
+    [[languages.en.menu.social]]
+    name = "GitHub"
+    url = "https://github.com/JulesBobeuf"
     pre = "<i class='fab fa-github'></i>"
+    target = "_blank"
 
-[[menu.social]]
+    [[languages.en.menu.social]]
     name = "Linkedin"
-    url = "https://www.linkedin.com/in/jules-bobeuf-47a683229/"
+    url = "https://www.linkedin.com/in/jules-bobeuf"
     pre = "<i class='fab fa-linkedin'></i>"
+    target = "_blank"
+
+    [[languages.en.menu.social]]
+    name = "CV"
+    pre = "CV"
+    url = "/files/cv_en.pdf"
+    target = "_blank"
+
+[languages.fr]
+languageName = ":fr:"
+title = "Jules BOBEUF"
+
+[[languages.fr.menu.main]]
+name = "Projets"
+weight = 1
+url = "projets/"
+    [[languages.fr.menu.social]]
+    name = "GitHub"
+    url = "https://github.com/JulesBobeuf"
+    pre = "<i class='fab fa-github'></i>"
+    target = "_blank"
+
+    [[languages.fr.menu.social]]
+    name = "Linkedin"
+    url = "https://www.linkedin.com/in/jules-bobeuf"
+    pre = "<i class='fab fa-linkedin'></i>"
+    target = "_blank"
+
+    [[languages.fr.menu.social]]
+    name = "CV"
+    pre = "CV"
+    url = "/files/cv_fr.pdf"
+    target = "_blank"
 
 [[menu.footer]]
-    name = "À propos"
-    url = "/a-propos-de"
+    #name = "Business inquiries : bobeuf.jules@gmail.com"
 
 [params]
     author = "Jules B."
-    authorImage = "/images/mon_avatar.jpg"
+    authorImage = "/images/mon_avatar.png"
 
 

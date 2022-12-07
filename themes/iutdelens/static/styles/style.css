@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1;    
+}
+
+.Competences {
+    align-items:baseline;
+}
+
+progress {
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    border: 0.1rem solid black;
+}
+
+section #programing::-moz-progress-bar { background: rgb(200, 11, 11); }
+section #programing::-webkit-progress-value { background: rgb(200, 11, 11); }
+section #programing {
+    color:rgb(200, 11, 11)
+}
+
+section #database::-moz-progress-bar { background: rgb(11, 200, 11); }
+section #database::-webkit-progress-value { background: rgb(11, 200, 11); }
+section #database {
+    color: rgb(11, 200, 11);
+} 
+
+section #web::-moz-progress-bar { background: rgb(31, 151, 237); }
+section #web::-webkit-progress-value { background: rgb(31, 151, 237); }
+section #web {
+    color: rgb(31, 151, 237);
+}    
+
+section #system::-moz-progress-bar { background: rgb(212, 229, 20); }
+section #system::-webkit-progress-value { background: rgb(212, 229, 20); }
+section #system {
+    color: rgb(212, 229, 20);
+}
+
+.projects {
+    align-items: center;
+}
+.btn{
+    position: relative;
+    display: inline-block;
+    padding: 1em 2em;
+    overflow: hidden;
+    border-radius: 3rem;
+    border: 2px solid #9A9A9A;
+    transition: background 1s;
+    margin-left: -1rem;
+    color: white !important;
+    background-color: #9A9A9A;
+}
+    
+.btn:hover {
+        background: rgb(200, 11, 11);
+}

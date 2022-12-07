@@ -2,24 +2,24 @@
     
     <div class="card-image">
       <figure class="image is-4by3">
-        <img src="../../../../static/images/mon_avatar.jpg" alt="">
+        <img src="{{ .Params.Image }}" alt="">
       </figure>
     </div>
     <div class="card-content">
       <div class="media">
         <div class="media-left">
           <figure class="image is-48x48">
-            <img src="../../../../static/images/mon_avatar.jpg" alt="">
+            <img src="{{ .Params.Technology }}" alt="">
           </figure>
         </div>
         <div class="media-content">
           <p class="title is-4">{{ .Title }}</p>
-          <p class="subtitle is-6">{{ .Site.Params.Author }}</p>
+          <p class="subtitle is-6">{{ .Params.Summary }}</p>
         </div>
       </div>
   
       <div class="content">
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <a href="{{ .Permalink }}">En savoir plus</a>
         <br>
       </div>
     </div>
