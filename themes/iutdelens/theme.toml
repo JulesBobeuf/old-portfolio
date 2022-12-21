@@ -19,3 +19,6 @@ min_version = "0.41.0"
   name = "Jules B."
   homepage = ""
   repo = ""
+
+[taxonomies]
+    category = "categories"

@@ -1,0 +1,32 @@
+---
+title: "Mon portfolio"
+weight: 35
+date: 2022-05-04T17:12:30+02:00
+draft: false
+categories: ["Website"]
+image: "/images/hugo.png"
+technology1: "Hugo"
+technology2: "HTML"
+technology3: "CSS"
+technology4: "JS"
+technologyImage: "/images/web96.png"
+summary: "Mon portfolio en hugo"
+
+context: ""
+
+contextParagraph: "
+"
+
+p1: ""
+
+p1Text: ""
+
+p2: ""
+
+p2Text: ""
+
+p3: ""
+
+p3Text: ""
+---
+

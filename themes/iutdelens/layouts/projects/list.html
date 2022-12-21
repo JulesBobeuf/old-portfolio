@@ -1,0 +1,29 @@
+{{ define "main" }}
+<div class="container">
+    <div class="section">
+        <h1 class=titre>Projects</h1>
+        <br>
+        <select class="triProjet">
+            <option value="">Tri par Option</option>
+            <option value="Application">Application</option>
+            <option value="Website">Website</option>
+            <option value="Video Game">Video Game</option>
+        </select>
+        <br>
+        <div class="columns is-multiline" id="projects">
+                {{ range .Paginator.Pages }}
+            <div class="column is-third">
+                {{ partial "thumbs.html" . }}
+            </div>
+            {{ end }}
+        </div>
+        <div class="columns is-centered">
+            <div class="column is-narrow">
+                {{ partial "paginate.html" . }}
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ end }}
+

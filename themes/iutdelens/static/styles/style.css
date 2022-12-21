@@ -10,48 +10,121 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.container {
+    align-items: center;
+    text-align: center
+}
+
+.darkmode--activated body,
+.darkmode--activated p,
+.darkmode--activated h1,
+.darkmode--activated h2,
+.darkmode--activated h3,
+.darkmode--activated h4,
+.darkmode--activated .card-content p,
+.darkmode--activated nav i,
+.darkmode--activated a,
+.darkmode--activated footer,
+.darkmode--activated label,
+.darkmode--activated .titre{
+    color: black;
 }
 main {
     flex: 1;    
+}
+
+footer {
+    z-index: 1;
+    position: relative;
+    background-color: transparent;
+    padding: 5rem;
+}
+.titre {
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+    margin-top: -2rem;
+    margin-bottom: 0.5rem;
+}
+
+.page-link {
+    padding: 0.1rem;
+    color: black;
+}
+
+.page-link:hover {
+    background-color: transparent;
+    color: rgb(14, 110, 255);
 }
 
 .Competences {
     align-items:baseline;
 }
 
-progress {
-    font-size: 1rem;
-    border-radius: 0.2rem;
+.circular--portrait { 
+    position: relative; 
+    width: 200px; 
+    height: 200px; 
+    overflow: hidden; 
+    border-radius: 50%; 
+    display: block;
+    margin-left: 42%;
+    margin-right: auto;
+} 
+.circular--portrait img { 
+    width: 100%; 
+    height: auto; 
+}
+.skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 3rem;
+}
+
+.projects {
+    position: bottom;
+}
+
+.error404 {
+    text-align: center;
+    color: black;
+    margin: 2rem;
+    background-color: transparent;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.progress.is-danger {
     border: 0.1rem solid black;
 }
 
-section #programing::-moz-progress-bar { background: rgb(200, 11, 11); }
-section #programing::-webkit-progress-value { background: rgb(200, 11, 11); }
-section #programing {
-    color:rgb(200, 11, 11)
+.column-homepage .card {
+    border: 0.1rem solid red;
+    margin: 0.1rem;
+    height: 100%;
+    width: 95%;
 }
 
-section #database::-moz-progress-bar { background: rgb(11, 200, 11); }
-section #database::-webkit-progress-value { background: rgb(11, 200, 11); }
-section #database {
-    color: rgb(11, 200, 11);
-} 
-
-section #web::-moz-progress-bar { background: rgb(31, 151, 237); }
-section #web::-webkit-progress-value { background: rgb(31, 151, 237); }
-section #web {
-    color: rgb(31, 151, 237);
-}    
-
-section #system::-moz-progress-bar { background: rgb(212, 229, 20); }
-section #system::-webkit-progress-value { background: rgb(212, 229, 20); }
-section #system {
-    color: rgb(212, 229, 20);
+.column-homepage .card .card-content {
+    padding-bottom: -0.2rem;
 }
 
 .projects {
     align-items: center;
 }
+
+.about-me {
+    margin: 4rem;
+}
+
 .btn{
     position: relative;
     display: inline-block;
@@ -66,5 +139,69 @@ section #system {
 }
     
 .btn:hover {
-        background: rgb(200, 11, 11);
+    background: rgb(14, 110, 255);
+}
+
+a:hover,
+i:hover{
+    color: rgb(14, 110, 255);
+}
+
+a,
+i{
+    color: black;
+}
+
+.card-content {
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-content figure {
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+.card-image figure img{
+    object-fit: cover;
+}
+
+
+.columns .column .card{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.technologies {
+    text-align: start;
+}
+
+.darkmode-toggle {
+    z-index: 2;
+}
+
+#firstTech {
+    margin-top: 0.5rem;
+}
+
+#imageThumbnailProjects {
+    margin-bottom: 0.1rem;
+}
+#projects{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+@media(min-width: 768px){
+    #projects{      
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media(min-width: 1240px){
+    #projects{
+        grid-template-columns: repeat(4, 1fr);
+    }
 }

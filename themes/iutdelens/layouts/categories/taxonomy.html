@@ -1,21 +1,19 @@
 {{ define "main" }}
 <div class="container">
     <div class="section">
-        <a href="/categories/">Liste des catégories</a>
         <div class="content">
-            <h1>Catégories: {{ .Title }}</h1>
-            {{ .Content }}
+            <h1>Categories</h1>
         </div>
         <div class="columns is-multiline">
             {{ range .Paginator.Pages }}
             <div class="column is-third">
-                {{ partial "widgets/thumbs.html" . }}
+                {{ partial "thumbs.html" . }}
             </div>
             {{ end }}
         </div>
         <div class="columns is-centered">
             <div class="column is-narrow">
-                {{ partial "widgets/pagination.html" . }}
+                {{ partial "paginate.html" . }}
             </div>
         </div>
     </div>

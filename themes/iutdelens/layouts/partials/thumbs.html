@@ -1,4 +1,4 @@
-<div class="card">
+<div class="card" data-category="{{ .Params.Categories }}">
     
     <div class="card-image">
       <figure class="image is-4by3">
@@ -8,9 +8,13 @@
     <div class="card-content">
       <div class="media">
         <div class="media-left">
-          <figure class="image is-48x48">
-            <img src="{{ .Params.Technology }}" alt="">
+          <figure class="image is-48x48" id="imageThumbnailProjects">
+            <img src="{{ .Params.TechnologyImage }}" alt="">
           </figure>
+          <p class="technologies" id="firstTech">{{.Params.Technology1}}</p>
+          <p class="technologies">{{.Params.Technology2}}</p>
+          <p class="technologies">{{.Params.Technology3}}</p>
+          <p class="technologies">{{.Params.Technology4}}</p>
         </div>
         <div class="media-content">
           <p class="title is-4">{{ .Title }}</p>
