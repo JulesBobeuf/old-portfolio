@@ -59,3 +59,10 @@ footer {
     background-color: transparent;
     padding: 5rem;
 }
+
+@media(max-width: 1240px){
+    .projectsContent{      
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}

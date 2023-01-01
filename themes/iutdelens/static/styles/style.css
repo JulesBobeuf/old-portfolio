@@ -196,6 +196,7 @@ i{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 }
+
 @media(min-width: 768px){
     #projects{      
         grid-template-columns: repeat(2, 1fr);
@@ -204,5 +205,13 @@ i{
 @media(min-width: 1240px){
     #projects{
         grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media(max-width: 675px){
+    .skills {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .column-homepage {
+        padding-bottom: 1rem;
     }
 }
