@@ -16,17 +16,6 @@
 </head>
 {{ partial "header.html" . }}
 
-<div class="category-group">
-    {{ range .Params.Categories }}
-        <div class="category">
-            <span class="category-text">
-                Categorie :
-                <a href="/categories/{{. | urlize }}">{{.}}</a>
-            </span>
-        </div>
-    {{end}}
-</div>
-
 <body>
     <div class="projectsContent">
         <h4>{{ .Params.Context }}</h4>
@@ -41,7 +30,7 @@
 
         <div> 
             <figure>
-                <img src="{{ .Params.Image }}" width="1024" height="1024" alt="">
+                <img src="{{ .Params.Image1 }}" width="1024" height="1024" alt="">
             </figure>
         </div>
         <br> <br>
@@ -53,7 +42,7 @@
 
         <div> 
             <figure>
-                <img src="{{ .Params.Image }}" width="1024" height="1024" alt="">
+                <img src="{{ .Params.Image2 }}" width="1024" height="1024" alt="">
             </figure>
         </div>
         <br> <br>
@@ -62,11 +51,9 @@
         <br>
         <p>{{ .Params.p3Text }}</p>
         <br><br>
+
+        {{ .Content }}
     </div>
 
-{{ range $idx, $category := .Params.categories }}
-{{- if ne $idx 0 }}, {{ end }}<a href="{{ "categories/" | relURL }}{{ $category | urlize }}">
-{{ $category }}
-</a>
-{{- end }}
 </body>
+{{ partial "footer.html" . }}

@@ -18,6 +18,8 @@ head {
 img {
     border-radius: 2rem;
     padding: 2rem;
+    max-width: 30%;
+    min-height: 30%;
 }
 
 h1,
@@ -44,4 +46,11 @@ p {
 }
 .navbar-end {
     align-items: center;
+}
+
+footer {
+    isolation: isolate;
+    position: relative;
+    background-color: transparent;
+    padding: 5rem;
 }

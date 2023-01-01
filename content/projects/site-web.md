@@ -3,8 +3,10 @@ title: "My first website"
 weight: 60
 date: 2022-05-04T17:12:30+02:00
 draft: false
-categories: ["Website"]
+categories: "Website"
 image: "/images/websitehomepage.png"
+image1: "/images/epee2bois.png"
+image2: "/images/epee2bois2.png"
 technology1: "HTML"
 technology2: "CSS"
 technology3: ""
@@ -30,4 +32,6 @@ p3: "The final result"
 
 p3Text: "We logically had a quite simple website, but did we really need more? We had 6 pages : The homepage, the contact form, the products page, the about us page and the price page. Our website was fully responsive and comported a navigation bar, a footer and obviously content. It was a really important project for me as it made me like programming website as it was an obscure world for me before. Thanks to my friends, I received many tips that made me improve a lot and which grew my HTML/CSS a few steps ahead. I am really proud of this first Computer science-related project, as I will for sure build more websites, whenever I will get the opportunity."
 ---
-
+##### Project members :
+- Elsa Logier : [LinkedIn](https://www.linkedin.com/in/elsa-logier-2bb692254/)
+- Thomas Santoro  : [LinkedIn](https://www.linkedin.com/in/thomas-santoro/)

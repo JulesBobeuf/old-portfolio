@@ -20,5 +20,33 @@ const options = {
     autoMatchOsTheme: true // default: true
 }
 
+const projects = []
+
 const darkmode = new Darkmode(options);
 darkmode.showWidget();
+
+// Tri dans les projets
+
+document.querySelector('.triProject').addEventListener('change',(p,o,n) => {
+    console.log(p.target.value);
+    let value = p.target.value;
+    let cardsCategory = document.querySelectorAll('.card')
+    localStorage.setItem('category',value);
+    cardsCategory.forEach((e,i)=> {
+        e.parentElement.style.display="none";
+        if (value=='All') {
+            e.parentElement.style.display="block";
+        }
+        else if (value==e.getAttribute('data-category')) {
+            e.parentElement.style.display="block";
+        }
+    })
+})
+let category = localStorage.getItem('category') ? localStorage.getItem('category') : 'All';
+let desOptions = document.querySelectorAll('.triProject option');
+desOptions.forEach((e,i)=> {
+    e.removeAttribute('selected');
+    if (category==e.getAttribute('value')) {
+        e.setAttribute('selected','selected')
+    }
+})

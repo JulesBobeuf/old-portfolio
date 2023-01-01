@@ -3,8 +3,10 @@ title: "Fractals generation"
 weight: 10
 date: 2022-05-04T17:12:30+02:00
 draft: false
-categories: ["Application"]
+categories: "Application"
 image: "/images/fractals.jpg"
+image1: "/images/mandelbrotGeneralisee.jpg"
+image2: "/images/tapisDeSierpinski.jpg"
 technology1: "Java"
 technology2: "Bash"
 technology3: ""
@@ -22,3 +24,7 @@ p2Text: "To generate the fractals, we logically needed to create graphic represe
 p3: "Final Result"
 p3Text: "We had two ways of creating the image : You could either use a test class which we had, or use bash programs made for each fractal. You could choose the colors the fractal would have, the zoom, the size of the image and so many parameters which made every new picture wonderful. It was a very hard project, with it's ups and down (me being sick and had fever for the whole week was one of those haha) but hey we made it, and that's what matters."
 ---
+
+##### Project members :
+- Aymeric Jakobowski : [LinkedIn](https://www.linkedin.com/in/aymeric-jakobowski/)
+- Thomas Santoro  : [LinkedIn](https://www.linkedin.com/in/thomas-santoro/)

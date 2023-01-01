@@ -2,8 +2,8 @@
 title: "My Portfolio"
 weight: 35
 date: 2022-05-04T17:12:30+02:00
-draft: false
-categories: ["Website"]
+draft: true
+categories: "Website"
 image: "/images/hugo.png"
 technology1: "Hugo"
 technology2: "HTML"

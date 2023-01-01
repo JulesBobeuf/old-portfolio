@@ -3,8 +3,10 @@ title: "Génération de fractales"
 weight: 10
 date: 2022-05-04T17:12:30+02:00
 draft: false
-categories: ["Application"]
+categories: "Application"
 image: "/images/fractals.jpg"
+image1: "/images/mandelbrotGeneralisee.jpg"
+image2: "/images/tapisDeSierpinski.jpg"
 technology1: "Java"
 technology2: "Bash"
 technology3: ""
@@ -21,3 +23,7 @@ p2Text: "Pour générer les fractales, ils fallaient que nous les représentions
 p3: "Le rendu final"
 p3Text: "On avait deux manière de représenter des images. La première était de lancé le programme Java à l'aide d'une classe de test, la seconde était de lancer un programme bash créé pour la suite choisis. On pouvait choisir différents paramêtre pour la génération des images, notamment la palette de couleurs utilisée, le zoom, la taille de l'image... Pour finir, c'était un projet très compliqué, remplis d'évènement aléatoire (notamment moi qui était tombé malade cette semaine là) mais ce qui compte, c'est que nous avions réussi à rendre le projet dans les délais avec la plupart des fonctionnalités."
 ---
+
+##### Membres du projet :
+- Aymeric Jakobowski : [LinkedIn](https://www.linkedin.com/in/aymeric-jakobowski/)
+- Thomas Santoro : [LinkedIn](https://www.linkedin.com/in/thomas-santoro/)

@@ -3,6 +3,13 @@
     <div class="section">
         <h1 class=titre>Projets</h1>
         <br>
+        <select class="triProject">
+            <option value="All">Tous les projets</option>
+            <option value="Application">Applications</option>
+            <option value="Website">Sites web</option>
+            <option value="Video Game">Jeux vidéo</option>
+        </select>
+        <br>
         <div class="columns is-multiline" id="projects">
                 {{ range .Paginator.Pages }}
             <div class="column is-third">
