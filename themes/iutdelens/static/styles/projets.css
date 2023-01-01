@@ -18,8 +18,13 @@ head {
 img {
     border-radius: 2rem;
     padding: 2rem;
-    max-width: 30%;
-    min-height: 30%;
+}
+
+.imgprojects {
+    border-radius: 2rem;
+    padding: 2rem;
+    max-height: 75%;
+    max-width: 75%;
 }
 
 h1,
