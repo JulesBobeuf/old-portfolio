@@ -17,20 +17,20 @@
                 <div class="navbar-start">{{ range .Site.Menus.main }}<a href="{{ .URL }}"class="navbar-item">{{ .Name
                         }}</a>
                         {{ end }}
-        </div>
-        <div class="navbar-end">
-            {{ range .Site.Menus.social }}
-            <a href="{{ .URL }}"class="navbar-item is-hidden-touch" title="{{ .Name }}">
-                <span class="icon">{{ .Pre }}</span></a>{{ end }}
-                <div class="div-language">
-                    <a>Languages</a>
-                    <ul class="ul-language"> 
-                    {{ range $.Site.Home.AllTranslations }}
-                        <li class="li-language"><a href="{{ .Permalink }}"> {{ .Language.LanguageName }}</a> </li>
-                    {{ end }}
-                    </ul>
                 </div>
-            </div>
+                <div class="navbar-end">
+                    {{ range .Site.Menus.social }}
+                    <a href="{{ .URL }}"class="navbar-item is-hidden-touch" title="{{ .Name }}">
+                    <span class="icon">{{ .Pre }}</span></a>{{ end }}
+                    <div class="div-language" id="test2">
+                        <a id="test">Languages</a>
+                        <ul class="ul-language"> 
+                        {{ range $.Site.Home.AllTranslations }}
+                            <li class="li-language"><a href="{{ .Permalink }}"> {{ .Language.LanguageName }}</a> </li>
+                        {{ end }}
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </nav>

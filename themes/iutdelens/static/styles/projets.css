@@ -60,7 +60,7 @@ footer {
     padding: 5rem;
 }
 
-@media(max-width: 1240px){
+@media(max-width: 950px){
     .projectsContent{      
         padding-left: 5rem;
         padding-right: 5rem;

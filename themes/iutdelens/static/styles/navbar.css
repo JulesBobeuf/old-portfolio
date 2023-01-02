@@ -34,3 +34,14 @@ nav a {
 .navbar-menu {
     background-color: transparent;
 }
+
+
+@media(max-width: 950px){
+    .div-language .ul-language , .ul-language, .li-language{
+        display: block;
+        text-align: left;
+        color: rgb(14, 110, 255);
+        background-color: transparent;
+    }
+} 
+
