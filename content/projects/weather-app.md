@@ -4,15 +4,21 @@ weight: 90
 date: 2022-05-04T17:12:30+02:00
 draft: false
 categories: "Website"
+summary: "Development of a website that displays atmospheric data through an API"
 image: "/images/msi.png"
 image1: "/images/MSIDiagram.png"
 image2: "/images/msi.png"
+
 technology1: "Python"
 technology2: "Flask"
 technology3: "HTML"
 technology4: "CSS"
 technologyImage: "/images/web96.png"
-summary: "Development of a website that displays atmospheric data through an API"
+
+projectType: "University Project"
+nbContributors: "3"
+endDate: "7/11/2022"
+link: "https://github.com/JulesBobeuf/weather-app"
 
 context: "Context"
 
@@ -35,5 +41,6 @@ p3Text: "As said earlier, the application takes care about everything that's rel
 ---
 
 ##### Project members :
+&nbsp;
 - Aymeric Jakobowski : [LinkedIn](https://www.linkedin.com/in/aymeric-jakobowski/)
 - Thomas Santoro  : [LinkedIn](https://www.linkedin.com/in/thomas-santoro/)

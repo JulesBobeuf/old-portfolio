@@ -4,15 +4,21 @@ weight: 30
 date: 2022-05-04T17:12:30+02:00
 draft: false
 categories: "Website"
+summary: "Programmed a website within 2 days"
 image: "/images/marathonLogo.png"
 image1: "/images/marathonHomepage.png"
 image2: "/images/marathonPage2.png"
+
 technology1: "PHP"
 technology2: "Laravel"
 technology3: "HTML"
 technology4: "CSS"
 technologyImage: "/images/web96.png"
-summary: "Programmed a website within 2 days"
+
+projectType: "University Project"
+nbContributors: "7"
+endDate: "16/12/2022"
+link: "https://github.com/JulesBobeuf/Marathon"
 
 context: "Context"
 
@@ -33,6 +39,7 @@ p3Text: "Thanks to the Multimedia team, we have got a working website which look
 ---
 
 ##### Project Members :
+&nbsp;
 - Aymeric Jakobowski : [LinkedIn](https://www.linkedin.com/in/aymeric-jakobowski/)
 - Thomas Santoro : [LinkedIn](https://www.linkedin.com/in/thomas-santoro/)
 - Julien Fischer : [LinkedIn](https://www.linkedin.com/in/julienfischer777/)

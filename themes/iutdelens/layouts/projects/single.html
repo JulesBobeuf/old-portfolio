@@ -17,7 +17,26 @@
 {{ partial "header.html" . }}
 
 <body>
+    <div class="rectangle">
+        <div class="inRectangle">
+            <p>Type</p>
+            <p>{{ .Params.projectType }}</p>
+        </div>
+        <div class="inRectangle">
+            <p>Contributors</p>
+            <p> {{ .Params.nbContributors}} </p>
+        </div>
+        <div class="inRectangle">
+            <p>End date</p>
+            <p> {{ .Params.endDate }}</p>
+        </div>
+        <div class="inRectangle">
+            <p>Project Link</p>
+            <a href="{{ .Params.Link }}"> <i class='fab fa-github'></i> GitHub</a>
+        </div>
+    </div>
     <div class="projectsContent">
+        <h1 class="titreProjet"> {{ .Params.Title }} </h1>
         <h4>{{ .Params.Context }}</h4>
         <br>
         <p>{{ .Params.ContextParagraph }}</p>

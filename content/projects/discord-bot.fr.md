@@ -4,19 +4,23 @@ weight: 50
 date: 2022-05-04T17:12:30+02:00
 draft: false
 categories: "Application"
+summary: "Développement d'un bot discord permettant de faire des évènements communautaires"
 image: "/images/vlrs.png"
+image1: "/images/vlrs.png"
+image2: "/images/vlrslb.png"
+
 technology1: "Python"
 technology2: "PostgreSQL"
 technology3: ""
 technology4: ""
-image1: "/images/vlrs.png"
-image2: "/images/vlrslb.png"
 technologyImage: "/images/discord.png"
-summary: "Développement d'un bot discord permettant de faire des évènements communautaires"
+
+projectType: "Projet Personel"
+nbContributors: "1"
+endDate: "16/2/2022"
+link: "https://github.com/JulesBobeuf/VLRSBot"
 
 context: "Contexte"
-
-
 contextParagraph: "Lors de ma première année d'étude à l'IUT de Lens, j'ai appris Python ainsi que la base de données PostgreSQL. Pendant les vacances de février, j'ai donc voulu utiliser mes connaissances dans un projet concret."
 
 

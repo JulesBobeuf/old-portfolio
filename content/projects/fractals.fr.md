@@ -4,15 +4,21 @@ weight: 10
 date: 2022-05-04T17:12:30+02:00
 draft: false
 categories: "Application"
+summary: "Création d'un programme générant des fractales"
 image: "/images/fractals.jpg"
 image1: "/images/mandelbrotGeneralisee.jpg"
 image2: "/images/tapisDeSierpinski.jpg"
+
 technology1: "Java"
 technology2: "Bash"
 technology3: ""
 technology4: ""
 technologyImage: "/images/app.jpg"
-summary: "Création d'un programme générant des fractales"
+
+projectType: "Projet Universitaire"
+nbContributors: "3"
+endDate: "28/10/2022"
+link: "https://github.com/JulesBobeuf/Fractals"
 
 context: "Contexte"
 contextParagraph: "Dans le cadre de la validation de notre troisième semestre, Aymeric jakobowski, Thomas Santoro et moi-même devions réaliser un programme java générant des fractales en utilisant les patrons de conceptions que nous avions étudié (stragies, decorateurs, constructeurs...) Le programme génére une image de la fractale choisis, entre l'ensemble de Julia, la suite de Mandelbrot, le tapis et triangle de Sierpinski... C'était un projet très compliqué, mais au final, on a réussi, et c'est ça qui compte!"
@@ -25,5 +31,15 @@ p3Text: "On avait deux manière de représenter des images. La première était 
 ---
 
 ##### Membres du projet :
+&nbsp;
 - Aymeric Jakobowski : [LinkedIn](https://www.linkedin.com/in/aymeric-jakobowski/)
 - Thomas Santoro : [LinkedIn](https://www.linkedin.com/in/thomas-santoro/)
+
+&nbsp;
+&nbsp;
+#### Lien du projet :
+
+&nbsp;
+[GitHub](https://github.com/JulesBobeuf/Fractals)
+
+

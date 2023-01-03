@@ -4,15 +4,21 @@ weight: 10
 date: 2022-05-04T17:12:30+02:00
 draft: false
 categories: "Application"
+summary: "Created an application that generates fractals"
 image: "/images/fractals.jpg"
 image1: "/images/mandelbrotGeneralisee.jpg"
 image2: "/images/tapisDeSierpinski.jpg"
+
 technology1: "Java"
 technology2: "Bash"
 technology3: ""
 technology4: ""
 technologyImage: "/images/app.jpg"
-summary: "Created an application that generates fractals"
+
+projectType: "University Project"
+nbContributors: "3"
+endDate: "28/10/2022"
+link: "https://github.com/JulesBobeuf/Fractals"
 
 context: ""
 contextParagraph: ""
@@ -25,6 +31,12 @@ p3: "Final Result"
 p3Text: "We had two ways of creating the image : You could either use a test class which we had, or use bash programs made for each fractal. You could choose the colors the fractal would have, the zoom, the size of the image and so many parameters which made every new picture wonderful. It was a very hard project, with it's ups and down (me being sick and had fever for the whole week was one of those haha) but hey we made it, and that's what matters."
 ---
 
-##### Project members :
+#### Project members :      
+
+&nbsp;
+
 - Aymeric Jakobowski : [LinkedIn](https://www.linkedin.com/in/aymeric-jakobowski/)
 - Thomas Santoro  : [LinkedIn](https://www.linkedin.com/in/thomas-santoro/)
+
+&nbsp;
+&nbsp;

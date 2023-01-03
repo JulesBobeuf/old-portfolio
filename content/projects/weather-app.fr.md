@@ -4,16 +4,21 @@ weight: 90
 date: 2022-05-04T17:12:30+02:00
 draft: false
 categories: "Website"
+summary: "Dévelopement d'un site web utilisant une API pour afficher des données atmosphériques"
 image: "/images/msi.png"
 image1: "/images/MSIDiagram.png"
 image2: "/images/msi.png"
+
 technology1: "Python"
 technology2: "Flask"
 technology3: "HTML"
 technology4: "CSS"
 technologyImage: "/images/web96.png"
 
-summary: "Dévelopement d'un site web utilisant une API pour afficher des données atmosphériques"
+projectType: "Projet Universitaire"
+nbContributors: "3"
+endDate: "7/11/2022"
+link: "https://github.com/JulesBobeuf/weather-app"
 
 context: "Contexte"
 
@@ -37,6 +42,7 @@ Lorsque celui-ci arrive sur la page web, il devra sélectionner une ville ainsi 
 ---
 
 ##### Membres du projet :
+&nbsp;
 - Aymeric Jakobowski : [LinkedIn](https://www.linkedin.com/in/aymeric-jakobowski/)
 - Thomas Santoro : [LinkedIn](https://www.linkedin.com/in/thomas-santoro/)
 

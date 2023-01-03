@@ -4,18 +4,23 @@ weight: 50
 date: 2022-05-04T17:12:30+02:00
 draft: false
 categories: "Application"
+summary: "Development of a Discord bot that handles community events"
 image: "/images/vlrs.png"
+image1: "/images/vlrs.png"
+image2: "/images/vlrslb.png"
+
 technology1: "Python"
 technology2: "PostgreSQL"
 technology3: ""
 technology4: ""
 technologyImage: "/images/discord.png"
-image1: "/images/vlrs.png"
-image2: "/images/vlrslb.png"
-summary: "Development of a Discord bot that handles community events"
+
+projectType: "Personal Project"
+nbContributors: "1"
+endDate: "16/2/2022"
+link: "https://github.com/JulesBobeuf/VLRSBot"
 
 context: "Context"
-
 contextParagraph: "During my first year at university, I have learnt Python and PostgreSQL. While I was in holidays, I wanted to experience a bit and use what I had learnt at school on a real project"
 
 p1: "Working environment"

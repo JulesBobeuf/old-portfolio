@@ -4,15 +4,21 @@ weight: 60
 date: 2022-05-04T17:12:30+02:00
 draft: false
 categories: "Website"
+summary: "Création d'un site vitrine pour une application dans l'événementiel"
 image: "/images/websitehomepage.png"
 image1: "/images/epee2bois.png"
 image2: "/images/epee2bois2.png"
+
 technology1: "HTML"
 technology2: "CSS"
 technology3: ""
 technology4: ""
 technologyImage: "/images/web96.png"
-summary: "Création d'un site vitrine pour une application dans l'événementiel"
+
+projectType: "Projet Universitaire"
+nbContributors: "3"
+endDate: "10/01/2022"
+link: "https://github.com/JulesBobeuf/EventWebsite"
 
 context: "Contexte"
 

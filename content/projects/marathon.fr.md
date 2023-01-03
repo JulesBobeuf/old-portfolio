@@ -4,15 +4,21 @@ weight: 30
 date: 2022-05-04T17:12:30+02:00
 draft: false
 categories: "Website"
+summary: "Programmation d'un site web en 2 jours"
 image: "/images/marathonLogo.png"
 image1: "/images/marathonHomepage.png"
 image2: "/images/marathonPage2.png"
+
 technology1: "PHP"
 technology2: "Laravel"
 technology3: "HTML"
 technology4: "CSS"
 technologyImage: "/images/web96.png"
-summary: "Programmation d'un site web en 2 jours"
+
+projectType: "Projet Universitaire"
+nbContributors: "7"
+endDate: "16/12/2022"
+link: "https://github.com/JulesBobeuf/Marathon"
 
 context: "Contexte"
 
@@ -33,10 +39,12 @@ p3Text: "Grâce à notre groupe de MMI, on a un site web qui fonctionne, qui est
 ---
 
 ##### Membres du projet :
+&nbsp;
 - Aymeric Jakobowski : [LinkedIn](https://www.linkedin.com/in/aymeric-jakobowski/)
 - Thomas Santoro : [LinkedIn](https://www.linkedin.com/in/thomas-santoro/)
 - Julien Fischer : [LinkedIn](https://www.linkedin.com/in/julienfischer777/)
 - Clara Amador : [LinkedIn](https://www.linkedin.com/in/clara-amador-490a91237/)
 - Louis Legry : [LinkedIn](https://www.linkedin.com/in/louis-legry-426436239/)
 - Alexandre Feraud : [LinkedIn](https://www.linkedin.com/in/alexandre-feraud-a81893143/)
+
 
