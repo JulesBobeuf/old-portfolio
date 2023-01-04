@@ -99,7 +99,7 @@ h4 {
 }
 
 footer {
-    isolation: isolate;
+    z-index: 1;
     position: relative;
     background-color: transparent;
     padding: 5rem;

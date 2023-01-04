@@ -37,6 +37,3 @@ p3Text: "We had two ways of creating the image : You could either use a test cla
 
 - Aymeric Jakobowski : [LinkedIn](https://www.linkedin.com/in/aymeric-jakobowski/)
 - Thomas Santoro  : [LinkedIn](https://www.linkedin.com/in/thomas-santoro/)
-
-&nbsp;
-&nbsp;

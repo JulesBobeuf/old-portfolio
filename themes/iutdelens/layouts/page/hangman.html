@@ -1,0 +1,36 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+<body>
+  <div class="hangman">
+    <h3> {{.Params.Title }} </h3>
+    <div class="hangmanIntro">
+      <p>{{ .Params.pintro1 }}</p>
+      <p>{{ .Params.pintro2 }}</p> 
+      <p>{{ .Params.pintro3 }}</p>
+    </div>
+    <div class="game-container">
+      <!-- The game will be displayed here -->
+      <form>
+        <input type="text" />
+        <button type="submit">{{ .Params.guessbutton }}</button>
+      </form>
+      <div class="word-display"></div>
+      <div> {{.Params.Attempts }}</div>
+      <div class="attempts-display"></div>
+      <div class="result-display"></div>
+      <p class="play-again" style="display: none;">{{ .Params.playagain }}</p>
+    </div>
+    <script src="/js/hangman.js"></script>
+    <div>
+      <img src="/images/hangman/hangman5.png" alt="Hangman" class="hangman-image" />
+    </div>
+    <div class="usedLetters">
+      <p>{{.Params.Usedletters }}</p>
+      <p class="list-container"></p>
+    </div>
+    <div class="hangmanOutro">
+    <p> {{ .Params.poutro }} <a href="https://openai.com/blog/chatgpt/">ChatGPT</a>.</p>
+    </div>
+  </div>
+</body>
+{{ partial "footer.html" . }}

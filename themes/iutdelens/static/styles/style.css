@@ -17,10 +17,10 @@ body {
 }
 
 #content {
+    background-color: transparent;
     align-items: center;
     text-align: center;
     isolation: isolate;
-    background-color: transparent;
 }
 main {
     flex: 1;    
@@ -130,7 +130,8 @@ footer {
 }
 
 .about-me {
-    margin: 4rem;
+    margin: 4rem;;
+    text-align: center;
 }
 
 .btn{
@@ -161,7 +162,36 @@ i{
 }
 
 .triProject {
-    margin: 1.5rem;
+    appearance: none;
+    background-color: transparent;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    color: #666;
+    font-size: 14px;
+    outline: 0;
+    padding: 0.1rem;
+    margin-bottom: 1rem;
+    width: 12%;
+    text-align: center;
+    color:black;
+    isolation: isolate;
+}
+
+.triProject::-ms-expand {
+    display: none;
+}
+
+.triProject:hover {
+    border-color: #999;
+}
+
+.triProject:focus {
+    border-color: #666;
+    box-shadow: 0 0 2px #666;
+}
+
+option {
+    isolation: isolate;
 }
 
 .column.is-third {
@@ -230,4 +260,30 @@ i{
     .column-homepage {
         padding-bottom: 1rem;
     }
+}
+
+
+/* Hangman */
+.hangman {
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.hangmanIntro {
+    padding: 0.5rem;
+}
+
+.game-container {
+    isolation: isolate;
+    background-color: transparent;
+    color: black;
+    padding: 1rem;
+}
+.usedLetters {
+    padding: 1rem;
+}
+
+.hangmanOutro {
+    padding-top: 0.2rem;
 }

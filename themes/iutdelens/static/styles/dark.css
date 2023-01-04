@@ -21,6 +21,10 @@
     color: rgb(224, 215, 215);
 }
 
+.darkmode--activated #content {
+    background:black;
+}
+
 .darkmode--activated .card-content {
     color: rgb(224, 215, 215);
 }
@@ -57,7 +61,19 @@
     color: rgb(224, 215, 215);
 }
 
-.darkmode--activated .darkmode-toggle {
+.darkmode--activated .triProject {
+    color: rgb(224, 215, 215);
+}
+
+.darkmode--activated .darkmode-toggle, .darkmode-toggle  {
     z-index: 2;
 }
 
+.darkmode--activated option {
+    color: black;
+}
+
+.darkmode--activated .game-container {
+    color: white;
+    background-color: transparent;
+}

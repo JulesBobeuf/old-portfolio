@@ -35,11 +35,4 @@ p3Text: "On avait deux manière de représenter des images. La première était 
 - Aymeric Jakobowski : [LinkedIn](https://www.linkedin.com/in/aymeric-jakobowski/)
 - Thomas Santoro : [LinkedIn](https://www.linkedin.com/in/thomas-santoro/)
 
-&nbsp;
-&nbsp;
-#### Lien du projet :
-
-&nbsp;
-[GitHub](https://github.com/JulesBobeuf/Fractals)
-
 
