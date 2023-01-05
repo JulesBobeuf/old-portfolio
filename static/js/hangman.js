@@ -78,7 +78,7 @@ const playGame = () => {
     }
   
     // Add an event listener to the form to handle form submission
-    const form = document.querySelector('form');
+    const form = document.querySelector('.formHangman');
     form.addEventListener('submit', (event) => {
       event.preventDefault();
       const input = event.target.querySelector('input');
@@ -87,21 +87,8 @@ const playGame = () => {
       guessLetter(guess.toLowerCase());
       checkGameOver();
     });
-
-
   }
-const playAgainButton = document.querySelector('.play-again');
-playAgainButton.addEventListener('click', () => {
-  // Clear the game container
-  const gameContainer = document.querySelector('.game-container');
-  gameContainer.innerHTML = '';
 
-    // Show the form again
-  const form = document.querySelector('form');
-  form.style.display = 'block';
-  // Start a new game
-  playGame();
-});
 playGame();
 
 

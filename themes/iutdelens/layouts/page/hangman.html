@@ -10,7 +10,7 @@
     </div>
     <div class="game-container">
       <!-- The game will be displayed here -->
-      <form>
+      <form class="formHangman">
         <input type="text" />
         <button type="submit">{{ .Params.guessbutton }}</button>
       </form>
@@ -18,9 +18,12 @@
       <div> {{.Params.Attempts }}</div>
       <div class="attempts-display"></div>
       <div class="result-display"></div>
-      <p class="play-again" style="display: none;">{{ .Params.playagain }}</p>
+      <div>     
+        <p class="play-again" style="display: none;">{{ .Params.playagain }}</p>
+        <!--<button class="play-again" style="display: none;">Play Again</button>-->
+      </div>
     </div>
-    <script src="/js/hangman.js"></script>
+    <script src="/js/{{ .Params.nomjs }}.js"></script>
     <div>
       <img src="/images/hangman/hangman5.png" alt="Hangman" class="hangman-image" />
     </div>
