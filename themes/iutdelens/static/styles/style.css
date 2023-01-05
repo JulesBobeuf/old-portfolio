@@ -47,6 +47,7 @@ footer {
     position: relative;
     background-color: transparent;
     padding: 5rem;
+    text-align: center;
 }
 .titre {
     font-size: 3rem;

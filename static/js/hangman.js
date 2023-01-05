@@ -1,4 +1,4 @@
-const words = ['jules', 'bobeuf', 'java', 'programming','html','python','css','csharp','ambitious'];
+const words = ['jules', 'bobeuf', 'java', 'programming','html','python','css','csharp','ambitious', 'php','javascript','dedicated'];
 
 
 const playGame = () => {
@@ -28,11 +28,20 @@ const playGame = () => {
       if (attemptsLeft === 0 || underscores.join('') === word) {
         return;
       }
+      const lowerCaseLetter = letter.toLowerCase();
+      
+      if (lowerCaseLetter.length > 1) {
+        return;
+      }
+      // Check if the letter has already been used
+      if (usedLetters.includes(lowerCaseLetter)) {
+        return;
+      }
 
       let foundLetter = false;
       for (let i = 0; i < wordArray.length; i++) {
-        if (wordArray[i] === letter) {
-          underscores[i] = letter;
+        if (wordArray[i] === lowerCaseLetter) {
+          underscores[i] = lowerCaseLetter;
           foundLetter = true;
         }
       }
@@ -42,7 +51,7 @@ const playGame = () => {
         hangman.style.display = 'block';
         hangman.querySelector('img').src = `/images/hangman/hangman${attemptsLeft}.png`;
       }
-      usedLetters.push(letter);
+      usedLetters.push(lowerCaseLetter);
       const listContainer = document.querySelector('.list-container');
       listContainer.innerHTML = usedLetters.join(', ');
       displayWord();
@@ -75,7 +84,7 @@ const playGame = () => {
       const input = event.target.querySelector('input');
       const guess = input.value;
       input.value = '';
-      guessLetter(guess);
+      guessLetter(guess.toLowerCase());
       checkGameOver();
     });
 
@@ -90,7 +99,6 @@ playAgainButton.addEventListener('click', () => {
     // Show the form again
   const form = document.querySelector('form');
   form.style.display = 'block';
-
   // Start a new game
   playGame();
 });
