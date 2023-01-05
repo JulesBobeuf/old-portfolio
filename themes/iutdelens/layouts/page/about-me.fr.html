@@ -1,0 +1,73 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+<div class="container">
+    <div class="section">
+        <div class="content">
+            {{ .Content }}
+            <div class="circular--portrait"> 
+                <img src="/images/me.png"/> 
+            </div>
+            <div class="about-me">
+                <h2>A propos</h2>
+                <p>Bonjour ! Je m'appelle Jules, j'ai 19 ans et je suis un étudiant en informatique ! <br>
+                        Sur ce site internet, vous pouvez trouver toutes les informations que vous auriez besoin à mon sujet. Mais voici ici quelques informations complémentaires :<br>
+                        J'ai obtenu mon baccalauréat général options Mathématique et Anglais avec mention. <br>
+                        J'ai aussi obtenu mon diplôme de fin d'études de Musique avec mention très bien en 2019. <br>
+                        Pendant mes études, j'ai étudié beaucoup de domaines en informatique, mais programmer des applications est mon domaine préféré. </p>
+            </div>
+            <div class="Competences">
+                <h2>Compétences</h2>
+                <div class="skills">
+                    <div class="column-homepage">
+                        <div class="card">
+                            <div class="card-content">
+                                <h3>Application</h3>
+                                <label for="programing">Java :</label>
+                                <progress class="progress is-danger" max="100" value="95"> 95% </progress> <br>
+                                <label for="programing">Python :</label>
+                                <progress class="progress is-danger" max="100" value="90"> 90% </progress> <br>
+                                <label for="programing">C# :</label>
+                                <progress class="progress is-danger" max="100" value="80"> 80% </progress> <br> <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column-homepage">
+                        <div class="card">
+                            <div class="card-content">
+                                <h3>Base de données</h3>
+                                <label for="database">SQL :</label>
+                                <progress class="progress is-danger" max="100" value="90"> 90% </progress> <br>
+                                <label for="database">PostgreSQL :</label>
+                                <progress class="progress is-danger" max="100" value="90"> 90% </progress> <br>
+                                <label for="database">PL/PG SQL :</label>
+                                <progress class="progress is-danger" max="100" value="75"> 75% </progress> <br> <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column-homepage">
+                        <div class="card">
+                            <div class="card-content">
+                                <h3>Web</h3>
+                                <label for="web">HTML :</label>
+                                <progress class="progress is-danger" max="100" value="90"> 90% </progress> <br>
+                                <label for="web">CSS :</label>
+                                <progress class="progress is-danger" max="100" value="80"> 80% </progress> <br>
+                                <label for="web">PHP :</label>
+                                <progress class="progress is-danger" max="100" value="70"> 70% </progress> <br>
+                                <label for="web">Hugo :</label>
+                                <progress class="progress is-danger" max="100" value="50"> 50% </progress> <br> <br>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+            <div class="projects">
+                <h2 class="subtitle">Projets</h2> <br> <br>
+                <p> Vous pouvez retrouver ici la liste de tous mes projets informatique</p> <br>
+                <a href="./projects" class="btn">Projets</a>
+            </div>
+        </div>
+    </div>
+</div>
+{{ partial "footer.html" . }}

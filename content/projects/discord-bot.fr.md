@@ -27,7 +27,7 @@ contextParagraph: "Lors de ma première année d'étude à l'IUT de Lens, j'ai a
 p1: "Environnement de travail"
 
 
-p1Text: "Pour faire de projet, je devais me familiariser avec la libraire Python psycopg2 qui me permettais de gérer la base de données, ainsi que les librairies Python pour faire un bot discord. Le projet n'était pas long en lui-même, mais il m'a fallut beaucoup de temps pour faire fonctionner chaque fonctionnalité, car il y avait beaucoup de bugs avec la base de données reliée à Python."
+p1Text: "Pour faire ce projet, je devais me familiariser avec la libraire Python psycopg2 qui me permettait de gérer la base de données, ainsi que les librairies Python pour faire un bot discord. Le projet n'était pas long en lui-même, mais il m'a fallu beaucoup de temps pour faire fonctionner chaque fonctionnalité, car il y avait beaucoup de bugs avec la base de données reliée à Python."
 
 
 p2: "Fonctionalités"
@@ -39,5 +39,5 @@ p2Text: "Le but du bot était d'ajouter une monnaie virtuelle sur un serveur que
 p3: "Épilogue"
 
 
-p3Text: "Le bot était en ligne sur un cloud puis ensuite sur mon Raspberry PI. Je n'ai pas eu l'occasion de beaucoup l'utiliser, mais c'était quand même un super projet sur lequel travailler. J'ai pu apprendre beaucoup de choses, notamment comment utiliser async et await en Python, et comment utiliser une base de données dans un language de programmation."
+p3Text: "Le bot était en ligne sur un cloud puis ensuite sur mon Raspberry PI. Je n'ai pas eu l'occasion de beaucoup l'utiliser, mais c'était quand même un super projet sur lequel travailler. J'ai pu apprendre beaucoup de choses, notamment comment utiliser async et await en Python, et comment utiliser une base de données dans un langage de programmation."
 ---

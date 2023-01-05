@@ -1,71 +1,35 @@
-{{ define "main" }}
-<div class="container">
-    <div class="section">
-        <div class="content">
-            {{ .Content }}
-            <div class="circular--portrait"> 
-                <img src="images/me.png"/> 
-            </div>
-            <div class="about-me">
-                <h2>About me</h2>
-                <p> Heya! My name's Jules, I'm a 19 year old French man and I am currently studying computer science! <br>
-                    On this website, you can find all the relevant information you may need about what I do in IT, but here's a little resume of me: <br>
-                    I graduated from high school with Mathematics and English Specialties in 2021 with distinctions in 2021. <br>
-                    I also obtained my end of study certificate in music theory with honors in 2019. <br>
-                    During my studies, I have explored all fields in Computer Science, but programming applications has been my favorite. </p>
-            </div>
-            <div class="Competences">
-                <h2>Skills</h2>
-                <div class="skills">
-                    <div class="column-homepage">
-                        <div class="card">
-                            <div class="card-content">
-                                <h3>Application</h3>
-                                <label for="programing">Java :</label>
-                                <progress class="progress is-danger" max="100" value="95"> 95% </progress> <br>
-                                <label for="programing">Python :</label>
-                                <progress class="progress is-danger" max="100" value="90"> 90% </progress> <br>
-                                <label for="programing">C# :</label>
-                                <progress class="progress is-danger" max="100" value="80"> 80% </progress> <br> <br>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column-homepage">
-                        <div class="card">
-                            <div class="card-content">
-                                <h3>Database</h3>
-                                <label for="database">SQL :</label>
-                                <progress class="progress is-danger" max="100" value="90"> 90% </progress> <br>
-                                <label for="database">PostgreSQL :</label>
-                                <progress class="progress is-danger" max="100" value="90"> 90% </progress> <br>
-                                <label for="database">PL/PG SQL :</label>
-                                <progress class="progress is-danger" max="100" value="75"> 75% </progress> <br> <br>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column-homepage">
-                        <div class="card">
-                            <div class="card-content">
-                                <h3>Web</h3>
-                                <label for="web">HTML :</label>
-                                <progress class="progress is-danger" max="100" value="90"> 90% </progress> <br>
-                                <label for="web">CSS :</label>
-                                <progress class="progress is-danger" max="100" value="80"> 80% </progress> <br>
-                                <label for="web">PHP :</label>
-                                <progress class="progress is-danger" max="100" value="70"> 70% </progress> <br>
-                                <label for="web">Hugo :</label>
-                                <progress class="progress is-danger" max="100" value="50"> 50% </progress> <br> <br>
-                            </div>
-                        </div>
-                    </div>
-            </div>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>{{ .Title }}</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link rel="stylesheet" href="{{ "/styles/homepage.css" | relURL }} "/>
+        <link rel="stylesheet" href="{{ "/styles/navbar.css" | relURL }} "/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="/js/index.js" defer></script>     
+        <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>  
+</head>
+
+<div class="navHomepage">
+{{ partial "header.html" .}}
+</div>
+
+<body>
+    <div class="homepage">
+        <div class="circular--portrait"> 
+            <img src="images/me.png"/> 
         </div>
-            <div class="projects">
-                <h2 class="subtitle">Projects</h2> <br> <br>
-                <p> Here is the list of all the projects I have done in IT</p> <br>
-                <a href="./projects" class="btn">Projects</a>
-            </div>
+        <h1 class="title">Jules Bobeuf</h1>
+        <h2 class="subtitle">IT Student</h2>
+        <div class="background">
         </div>
     </div>
-</div>
-{{ end }} 
+</body>
+</html>

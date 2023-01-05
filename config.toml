@@ -22,8 +22,13 @@ description = "Site personel de Jules Bobeuf"
 keywords = "blog,developpeur,java,c#,python"
 
 [[languages.en.menu.main]]
-name = "Projects"
+name = "About me"
 weight = 1
+url = "/about-me"
+
+[[languages.en.menu.main]]
+name = "Projects"
+weight = 2
 url = "/projects"
 
 [[languages.en.menu.main]]
@@ -54,8 +59,13 @@ languageName = "Français"
 title = "Jules BOBEUF"
 
 [[languages.fr.menu.main]]
-name = "Projets"
+name = "A propos"
 weight = 1
+url = "/fr/about-me"
+
+[[languages.fr.menu.main]]
+name = "Projets"
+weight = 2
 url = "/fr/projects"
 
 [[languages.fr.menu.main]]

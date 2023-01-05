@@ -22,7 +22,7 @@
 }
 
 .darkmode--activated #content {
-    background:black;
+    background:transparent;
 }
 
 .darkmode--activated .card-content {
@@ -33,12 +33,12 @@
 .darkmode--activated a:hover,
 .darkmode--activated .logo p:hover {
     color: rgb(14, 110, 255);
-    background-color: black;
+    background-color: transparent;
 }
 
 .darkmode--activated nav a:hover{
     color: rgb(14, 110, 255);
-    background-color: black;
+    background-color: transparent;
 }
 
 .darkmode--activated .card{

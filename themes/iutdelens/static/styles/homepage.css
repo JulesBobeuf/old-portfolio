@@ -1,0 +1,82 @@
+.navHomepage nav {
+    font-weight: 500;
+}
+
+.navHomepage nav a, .navHomepage nav span, .darkmode--activated a {
+    color: white;
+    font-size: 1.1rem;
+}
+
+.background{
+    background-image: url(/images/nuages.jpg);
+    background-size: cover;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:-1;
+    isolation: isolate;
+    overflow: hidden; 
+}
+.background::after{
+    content:"";
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    isolation: isolate;
+}
+
+.homepage{
+    margin-top: -5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh;
+    flex-direction: column;   
+}
+
+.circular--portrait { 
+    position: relative; 
+    width: 200px; 
+    height: 200px; 
+    overflow: hidden; 
+    border-radius: 50%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+.circular--portrait img { 
+    width: 100%; 
+    height: auto; 
+}
+
+h1 {
+    margin: 2rem;
+}
+
+.title{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+
+.subtitle{
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    color: black;
+}
+
+.navHomepage nav a:hover {
+    background-color: transparent;
+}
+
+.darkmode--activated nav i:hover,
+.darkmode--activated a:hover,
+.darkmode--activated .logo p:hover {
+    color: rgb(14, 110, 255);
+}
