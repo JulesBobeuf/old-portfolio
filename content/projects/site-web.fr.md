@@ -4,7 +4,7 @@ weight: 60
 date: 2022-05-04T17:12:30+02:00
 draft: false
 categories: "Website"
-summary: "Création d'un site vitrine pour une application dans l'événementiel"
+summary: "Création d'un site vitrine pour une application dans l'événementiel."
 image: "/images/websitehomepage.png"
 image1: "/images/epee2bois.png"
 image2: "/images/epee2bois2.png"
@@ -33,6 +33,6 @@ p2: "Les autres pages"
 p2Text: "Le site web possède quatres autres pages : Une page présentant les produits, une autre annonçant les prix, une troisième à propos des créateurs, et enfin une page de contact. Toutes ses pages contenaient un menu de navigation redirigeant vers les autres pages."
 ---
 
-##### Membres du projet :
+#### Membres du projet :
 - Elsa Logier : [LinkedIn](https://www.linkedin.com/in/elsa-logier-2bb692254/)
 - Thomas Santoro  : [LinkedIn](https://www.linkedin.com/in/thomas-santoro/)

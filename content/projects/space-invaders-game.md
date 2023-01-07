@@ -4,7 +4,7 @@ weight: 9
 date: 2022-05-04T17:12:30+02:00
 draft: true
 categories: "Video Game"
-summary: "Made a space invaders game with multiple game levels using design patterns"
+summary: "Made a space invaders game with multiple game levels using design patterns."
 image: "/images/tempSpaceInvaders.png"
 image1: ""
 image2: ""

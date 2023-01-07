@@ -4,7 +4,7 @@ weight: 20
 date: 2022-05-04T17:12:30+02:00
 draft: false
 categories: "Application"
-summary: "Creation of a stock / sales management app"
+summary: "Creation of a stock / sales management app."
 image: "/images/nekleo.png"
 image1: "/images/appgvconsole.png"
 image2: "/images/appgvhomepage.png"
@@ -35,7 +35,7 @@ p3: "How it works?"
 
 p3Text: "When you launch the application, you will find yourself in front of a GUI that will let you select which part you would like to access: clients, stocks... Afterwards, you will have menus that will open up, which will let you choose whether if you want to see the current data, if you want to add, update or delete data and so on. You could also select how you would want the data to be sorted. As a whole, the app is quite complete, especially for first year students."
 ---
-##### Project members :
+#### Project members :
 &nbsp;
 - Aymeric Jakobowski : [LinkedIn](https://www.linkedin.com/in/aymeric-jakobowski/)
 - Thomas Santoro : [LinkedIn](https://www.linkedin.com/in/thomas-santoro/)

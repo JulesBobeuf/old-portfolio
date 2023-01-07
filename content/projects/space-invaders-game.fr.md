@@ -4,7 +4,7 @@ weight: 9
 date: 2022-05-04T17:12:30+02:00
 draft: true
 categories: "Video Game"
-summary: "Création d'un jeu Space Invaders avec plusieurs niveau de jeu en utilisant les patrons de conceptions"
+summary: "Création d'un jeu Space Invaders avec plusieurs niveau de jeu en utilisant les patrons de conceptions."
 image: "/images/tempSpaceInvaders.png"
 image1: ""
 image2: ""

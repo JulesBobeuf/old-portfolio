@@ -1,5 +1,5 @@
 <div class="card" data-category="{{ .Params.Categories }}">
-    
+  <a href="{{ .Permalink }}">
     <div class="card-image">
       <figure class="image is-4by3">
         <img src="{{ .Params.Image }}" alt="">
@@ -21,10 +21,6 @@
           <p class="subtitle is-6">{{ .Params.Summary }}</p>
         </div>
       </div>
-  
-      <div class="content">
-        <a href="{{ .Permalink }}">En savoir plus</a>
-        <br>
-      </div>
     </div>
+    </a>
 </div>

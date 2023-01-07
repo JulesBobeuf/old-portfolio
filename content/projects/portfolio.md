@@ -4,7 +4,7 @@ weight: 35
 date: 2022-05-04T17:12:30+02:00
 draft: true
 categories: "Website"
-summary: "My portfolio with hugo"
+summary: "My portfolio with hugo."
 image: "/images/hugo.png"
 image1: ""
 image2: ""
@@ -37,7 +37,3 @@ p3: ""
 
 p3Text: ""
 ---
-
-#### Project link :
-&nbsp;
-[GitHub](https://github.com/JulesBobeuf/julesbobeuf.github.io)

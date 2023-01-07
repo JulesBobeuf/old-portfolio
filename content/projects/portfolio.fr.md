@@ -4,7 +4,7 @@ weight: 35
 date: 2022-05-04T17:12:30+02:00
 draft: true
 categories: "Website"
-summary: "Mon portfolio avec hugo"
+summary: "Mon portfolio avec hugo."
 image: "/images/hugo.png"
 image1: ""
 image2: ""

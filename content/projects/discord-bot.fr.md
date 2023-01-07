@@ -4,7 +4,7 @@ weight: 50
 date: 2022-05-04T17:12:30+02:00
 draft: false
 categories: "Application"
-summary: "Développement d'un bot discord permettant de faire des évènements communautaires"
+summary: "Développement d'un bot discord permettant de gérer des évènements communautaires."
 image: "/images/vlrs.png"
 image1: "/images/vlrs.png"
 image2: "/images/vlrslb.png"
@@ -15,7 +15,7 @@ technology3: ""
 technology4: ""
 technologyImage: "/images/discord.png"
 
-projectType: "Projet Personel"
+projectType: "Projet Personnel"
 nbContributors: "1"
 endDate: "16/2/2022"
 link: "https://github.com/JulesBobeuf/VLRSBot"

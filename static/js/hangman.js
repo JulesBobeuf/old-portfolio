@@ -28,6 +28,7 @@ const playGame = () => {
       if (attemptsLeft === 0 || underscores.join('') === word) {
         return;
       }
+
       const lowerCaseLetter = letter.toLowerCase();
       
       if (lowerCaseLetter.length > 1) {

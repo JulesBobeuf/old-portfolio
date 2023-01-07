@@ -4,7 +4,7 @@ weight: 20
 date: 2022-05-04T17:12:30+02:00
 draft: false
 categories: "Application"
-summary: "Création d'une application de Gestion / Vente pour une entreprise"
+summary: "Création d'une application de Gestion / Vente pour une entreprise."
 image: "/images/nekleo.png"
 image1: "/images/appgvconsole.png"
 image2: "/images/appgvhomepage.png"

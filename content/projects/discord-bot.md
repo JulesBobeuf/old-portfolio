@@ -4,7 +4,7 @@ weight: 50
 date: 2022-05-04T17:12:30+02:00
 draft: false
 categories: "Application"
-summary: "Development of a Discord bot that handles community events"
+summary: "Development of a Discord bot that handles community events."
 image: "/images/vlrs.png"
 image1: "/images/vlrs.png"
 image2: "/images/vlrslb.png"

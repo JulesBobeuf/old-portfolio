@@ -4,7 +4,7 @@ weight: 30
 date: 2022-05-04T17:12:30+02:00
 draft: false
 categories: "Website"
-summary: "Programmed a website within 2 days"
+summary: "Programmed a website within 2 days that displays an art gallery."
 image: "/images/marathonLogo.png"
 image1: "/images/marathonHomepage.png"
 image2: "/images/marathonPage2.png"
@@ -38,7 +38,7 @@ p3: "Final product"
 p3Text: "Thanks to the Multimedia team, we have got a working website which looks great and contains a beautiful art gallery that follows the themes given. The website was not polished as we only had 34 hours, but the functionalities are there and the core of the design as well. Compared to some other groups, I'm convinced that we did a great job. To finish, I would like to thank my six team mates as it was really hard but we managed to pull through, and I am so proud of the final product."
 ---
 
-##### Project Members :
+#### Project Members :
 &nbsp;
 - Aymeric Jakobowski : [LinkedIn](https://www.linkedin.com/in/aymeric-jakobowski/)
 - Thomas Santoro : [LinkedIn](https://www.linkedin.com/in/thomas-santoro/)

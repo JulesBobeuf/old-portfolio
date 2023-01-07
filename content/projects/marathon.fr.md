@@ -4,7 +4,7 @@ weight: 30
 date: 2022-05-04T17:12:30+02:00
 draft: false
 categories: "Website"
-summary: "Programmation d'un site web en 2 jours"
+summary: "Programmation d'un site web en 2 jours qui représente une gallerie d'art."
 image: "/images/marathonLogo.png"
 image1: "/images/marathonHomepage.png"
 image2: "/images/marathonPage2.png"
@@ -38,7 +38,7 @@ p3: "Produit final"
 p3Text: "Grâce à notre groupe de MMI, on a un site web qui fonctionne, qui est beau et qui possède la galerie d'art attendue. Le site n'a pas été peaufiné, car on avait seulement 34 heures pour travailler dessus. Cependant, les fonctionnalités sont présentes ainsi que le cœur du design. Comparé aux autres groupes, je pense que nous nous en sommes bien sortis. Pour finir, je souhaite remercier mon groupe car c'était un projet très difficile, mais nous avons réussi à nous en sortir, et je suis fier du produit final."
 ---
 
-##### Membres du projet :
+#### Membres du projet :
 &nbsp;
 - Aymeric Jakobowski : [LinkedIn](https://www.linkedin.com/in/aymeric-jakobowski/)
 - Thomas Santoro : [LinkedIn](https://www.linkedin.com/in/thomas-santoro/)

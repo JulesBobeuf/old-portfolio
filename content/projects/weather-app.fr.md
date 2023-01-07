@@ -4,7 +4,7 @@ weight: 90
 date: 2022-05-04T17:12:30+02:00
 draft: false
 categories: "Website"
-summary: "Dévelopement d'un site web utilisant une API pour afficher des données atmosphériques"
+summary: "Dévelopement d'un site web utilisant une API pour afficher des données atmosphériques."
 image: "/images/msi.png"
 image1: "/images/MSIDiagram.png"
 image2: "/images/msi.png"
@@ -41,7 +41,7 @@ Lorsque celui-ci arrive sur la page web, il devra sélectionner une ville ainsi 
 "
 ---
 
-##### Membres du projet :
+#### Membres du projet :
 &nbsp;
 - Aymeric Jakobowski : [LinkedIn](https://www.linkedin.com/in/aymeric-jakobowski/)
 - Thomas Santoro : [LinkedIn](https://www.linkedin.com/in/thomas-santoro/)

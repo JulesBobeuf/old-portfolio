@@ -4,7 +4,7 @@ weight: 90
 date: 2022-05-04T17:12:30+02:00
 draft: false
 categories: "Website"
-summary: "Development of a website that displays atmospheric data through an API"
+summary: "Development of a website that displays atmospheric data through an API."
 image: "/images/msi.png"
 image1: "/images/MSIDiagram.png"
 image2: "/images/msi.png"
@@ -40,7 +40,7 @@ p3: "Final result"
 p3Text: "As said earlier, the application takes care about everything that's related to its back-end. All the user needs to do is to go on the website and to enter the town he wants to retrieve the data for and a time span. Then, the app will load a new template and will show the retrieved data."
 ---
 
-##### Project members :
+#### Project members :
 &nbsp;
 - Aymeric Jakobowski : [LinkedIn](https://www.linkedin.com/in/aymeric-jakobowski/)
 - Thomas Santoro  : [LinkedIn](https://www.linkedin.com/in/thomas-santoro/)
