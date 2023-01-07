@@ -22,8 +22,8 @@
                     {{ range .Site.Menus.social }}
                     <a href="{{ .URL }}"class="navbar-item is-hidden-touch" title="{{ .Name }}">
                     <span class="icon">{{ .Pre }}</span></a>{{ end }}
-                    <div class="div-language" id="test2">
-                        <a id="test">Languages</a>
+                    <div class="div-language">
+                        <a id="uselesslang">Languages</a>
                         <ul class="ul-language"> 
                         {{ range $.Site.Home.AllTranslations }}
                             <li class="li-language"><a href="{{ .Permalink }}"> {{ .Language.LanguageName }}</a> </li>
