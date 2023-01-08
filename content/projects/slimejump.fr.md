@@ -25,7 +25,7 @@ contextParagraph: "Pendant que je regardais des vidéos sur YouTube, j'ai trouv�
 
 p1: "A propos de Z-Sharp"
 
-p1Text: "Z# est, comme dit précédemment, un langage fait par AstroSam pendant son temps personnel, juste pour le fun. Le langage n'est pas finis du tout et ne sera probablement pas amélioré pour l'instant. Le langage nous limite donc beaucoup ce qui rend presque tout jeu impossible à créer. Il n'y a pas de boucle for, pas de listes, l'interpréteur n'est pas optimisé... Même s'il y a beaucoup de points négatif, c'est très simple de créer une interface graphique en Z#, ce qui est son principal but. Je pense que l'idée de base est géniale, c'est donc pour cela que j'ai décidé de faire un projet avec ce langage. Cependant, c'est très compliqué de faire quoi que ce soit. De plus, pour votre information, Slime Jump est codé en version Z-Sharp v2.1.3-alpha."
+p1Text: "Z# est, comme dit précédemment, un langage fait par AstroSam pendant son temps personnel, juste pour le fun. Le langage n'est pas finis du tout et ne sera probablement pas amélioré pour l'instant. Le langage nous limite donc beaucoup ce qui rend presque tout jeu impossible à créer. Il n'y a pas de boucle for, pas de listes, l'interpréteur n'est pas optimisé... Même s'il y a beaucoup de points négatif, il nous est très simple de créer une interface graphique en Z#, ce qui est son principal but. Je pense que l'idée de base est géniale, c'est d'ailleurs pour cela que j'ai décidé de faire un projet avec ce langage. Cependant, il très compliqué de faire quoi que ce soit. Enfin, pour votre information, Slime Jump est codé en version Z-Sharp v2.1.3-alpha."
 
 p2: "Difficultés rencontrées"
 
