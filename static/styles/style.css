@@ -309,15 +309,15 @@ option {
     height: 1.75rem;
     font-size: 15px;
     border: none;
-    border-radius: 5px;
+    border-radius: 5px; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     cursor: pointer;
     margin-left: 1rem;
 }
 
-
 .usedLetters {
     padding: 1rem;
+    background-color: red;
 }
 
 .hangmanOutro {

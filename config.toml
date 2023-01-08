@@ -2,7 +2,6 @@ baseURL = '/'
 languageCode = 'en-us'
 defaultContentLanguage = 'en'
 title = 'Jules BOBEUF'
-theme = 'iutdelens'
 paginate = 32
 disableKinds = ['taxonomy', 'term']
 

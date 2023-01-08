@@ -77,3 +77,14 @@
     color: white;
     background-color: transparent;
 }
+
+
+/* Hangman */
+
+.formHangman input[type="text"] {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.formHangman button[type="submit"] {
+    box-shadow: 0 2px 4px rgba(224, 224, 224, 0.2);
+}
