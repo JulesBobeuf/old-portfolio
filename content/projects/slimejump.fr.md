@@ -5,7 +5,7 @@ date: 2022-05-04T17:12:30+02:00
 draft: false
 categories: "Video Game"
 summary: "Réalisation d'un jeu de plateforme en Z-Sharp, un langage de programmation créée pour le fun."
-image: "/images/SlimeJump.png"
+image: "/images/SlimeJump-48x48.png"
 image1: "/images/ZSharp.png"
 image2: "/images/SlimeJump.png"
 

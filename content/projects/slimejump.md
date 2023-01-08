@@ -5,7 +5,7 @@ date: 2022-05-04T17:12:30+02:00
 draft: false
 categories: "Video Game"
 summary: "Made a small platform game using Z-Sharp, a fun made programming language."
-image: "/images/SlimeJump.png"
+image: "/images/SlimeJump-48x48.png"
 image1: "/images/ZSharp.png"
 image2: "/images/SlimeJump.png"
 
