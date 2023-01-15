@@ -33,7 +33,7 @@ p2Text: "Il n'y a presque pas de documentation à propos de Z-Sharp, ce qui rend
 
 p3: "A propos de Slime Jump"
 
-p3Text: "Le jeu est très simple : le but est d'atteindre l'échelle en haut à droite. Il n'y a qu'un seul niveau à cause des limitations du langage. Vous pouvez vous déplacer à gauche avec A, à droite avec D, sprinter avec LControl et sauter avec espace. Le block de slime a aussi une caractéristique spéciale!
+p3Text: "Pour créer Slime Jump, j'ai utilisé une template publique que j'ai trouvé sur le GitHub de SamAstro. Je l'ai ensuite modifiée pour qu'elle convienne à mes besoins. Le jeu est très simple : le but est d'atteindre l'échelle en haut à droite. Il n'y a qu'un seul niveau à cause des limitations du langage. Vous pouvez vous déplacer à gauche avec A, à droite avec D, sprinter avec LControl et sauter avec espace. Le block de slime a aussi une caractéristique spéciale!
 C'est tout pour Slime Jump, j'ai adoré travaillé sur ce projet, même si je savais qu'il n'irait pas très loin."
 ---
 
