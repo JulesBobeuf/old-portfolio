@@ -39,6 +39,8 @@ p3: "Projet final"
 
 p3Text: "Notre jeu contient 4 niveaux de difficultés différentes. Les fonctionnalités listées ci-dessus sont implémentées dans au moins un niveau. Le premier niveau est très facile alors que le dernier est presque impossible. Sur une note personnelle, j'ai adoré travailler sur ce projet, et je suis fier du résultat final. J'ai appris beaucoup grâce à ce jeu et je vais réutiliser ces connaissances très souvent."
 
+---
+
 ##### Membres du projet :
 &nbsp;
 - Aymeric Jakobowski : [LinkedIn](https://www.linkedin.com/in/aymeric-jakobowski/)
