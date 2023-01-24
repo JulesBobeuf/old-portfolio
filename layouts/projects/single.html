@@ -36,42 +36,44 @@
         </div>
     </div>
     <div class="projectsContent">
-        <h1 class="titreProjet"> {{ .Params.Title }} </h1>
-        <h4>{{ .Params.Context }}</h4>
-        <br>
-        <p>{{ .Params.ContextParagraph }}</p>
-        <br><br>
+        <div class="colortest">
+            <h1 class="titreProjet"> {{ .Params.Title }} </h1>
+            <h4>{{ .Params.Context }}</h4>
+            <br>
+            <p>{{ .Params.ContextParagraph }}</p>
+            <br><br>
 
-        <h4>{{ .Params.p1 }}</h4>
-        <br>
-        <p>{{ .Params.p1Text }}</p>
-        <br><br>
+            <h4>{{ .Params.p1 }}</h4>
+            <br>
+            <p>{{ .Params.p1Text }}</p>
+            <br><br>
 
-        <div> 
-            <figure>
-                <img class="imgprojects" src="{{ .Params.Image1 }}" alt="">
-            </figure>
+            <div> 
+                <figure>
+                    <img class="imgprojects" src="{{ .Params.Image1 }}" alt="">
+                </figure>
+            </div>
+            <br> <br>
+
+            <h4>{{ .Params.p2 }}</h4>
+            <br>
+            <p>{{ .Params.p2Text }}</p>
+            <br><br>
+
+            <div> 
+                <figure>
+                    <img class="imgprojects" src="{{ .Params.Image2 }}" alt="">
+                </figure>
+            </div>
+            <br> <br>
+
+            <h4>{{ .Params.p3 }}</h4>
+            <br>
+            <p>{{ .Params.p3Text }}</p>
+            <br><br>
+
+            {{ .Content }}
         </div>
-        <br> <br>
-
-        <h4>{{ .Params.p2 }}</h4>
-        <br>
-        <p>{{ .Params.p2Text }}</p>
-        <br><br>
-
-        <div> 
-            <figure>
-                <img class="imgprojects" src="{{ .Params.Image2 }}" alt="">
-            </figure>
-        </div>
-        <br> <br>
-
-        <h4>{{ .Params.p3 }}</h4>
-        <br>
-        <p>{{ .Params.p3Text }}</p>
-        <br><br>
-
-        {{ .Content }}
     </div>
 
 </body>
