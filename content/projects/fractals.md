@@ -1,5 +1,5 @@
 ---
-title: "Fractals generation"
+title: "Fractals Generation"
 weight: 10
 date: 2022-05-04T17:12:30+02:00
 draft: false
@@ -20,8 +20,8 @@ nbContributors: "3"
 endDate: "28/10/2022"
 link: "https://github.com/JulesBobeuf/Fractals"
 
-context: ""
-contextParagraph: ""
+context: "Context"
+contextParagraph: "During our third semester at university, we had a course called 'quality developement' which was about programming well and clearly. One of the topics we had was about the design patterns, and what a better way to learn about them than by implementing them within a game."
 
 p1: "Beginning"
 p1Text: "To begin with, we had to code the mathematic formulas in Java. It was not the hardest thing to do except the few design patterns we had to  use, just like an iterator for example. The biggest issue we bad was with Sierpinspki fractals as we needed to use Recursivity, but Aymeric made it out for us. On my side, I was coding the complex points and their representation in plans, as this is what we used to represent the fractals."

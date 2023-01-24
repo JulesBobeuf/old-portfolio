@@ -15,10 +15,9 @@
     display: block;
     text-align: left;
     color: rgb(14, 110, 255);
-    background-color: transparent;
 }
 
-nav a:hover{
+.navbar a:hover{
     color: rgb(14, 110, 255);
     background-color: transparent;
 }
@@ -30,14 +29,6 @@ nav a:hover{
 
 .ul-language{
     display: none;
-}
-
-nav a {
-    color: black;
-}
-
-.navbar-menu {
-    background-color: transparent;
 }
 
 @media(max-width: 950px){

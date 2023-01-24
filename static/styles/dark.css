@@ -1,7 +1,6 @@
 .darkmode--activated body,
 .darkmode--activated p,
 .darkmode--activated body p,
-.darkmode--activated footer,
 .darkmode--activated h1,
 .darkmode--activated h2,
 .darkmode--activated h3,
@@ -11,7 +10,6 @@
 .darkmode--activated .card-content p,
 .darkmode--activated nav i,
 .darkmode--activated a,
-.darkmode--activated footer,
 .darkmode--activated label,
 .darkmode--activated .projectsContent p
 .darkmode--activated .navbar,
@@ -48,7 +46,7 @@
     background-color: transparent;
 }
 
-.darkmode--activated .rectangle{
+.darkmode--activated .rectangle, .darkmode--activated  .colortest{
     box-shadow:0.3rem 0.2rem 0.5rem 0.1rem rgba(86, 86, 86, 0.5);
     -moz-box-shadow: 0.3rem 0.2rem 0.5rem 0.1rem rgba(86, 86, 86, 0.5);
     -webkit-box-shadow: 0.3rem 0.2rem 0.5rem 0.1rem rgba(86, 86, 86, 0.5);
@@ -73,11 +71,17 @@
     color: black;
 }
 
-.darkmode--activated .game-container {
-    color: white;
+.darkmode--activated footer {
     background-color: transparent;
 }
 
+.darkmode--activated footer p{
+    color:white;
+}
+
+.darkmode--activated .triProject {
+    border-color: white;
+}
 
 /* Hangman */
 
@@ -87,4 +91,9 @@
 
 .formHangman button[type="submit"] {
     box-shadow: 0 2px 4px rgba(224, 224, 224, 0.2);
+}
+
+.darkmode--activated .game-container {
+    color: white;
+    background-color: transparent;
 }
