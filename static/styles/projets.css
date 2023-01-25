@@ -151,6 +151,10 @@ footer {
         height: 30%;
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .navbar-menu.is-active {
+        background-color:transparent;
+    }
 }
 
 @media(max-width: 768px) {

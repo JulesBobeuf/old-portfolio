@@ -270,6 +270,10 @@ option {
     .triProject {
         width: 25%;
     }
+
+    .navbar-menu.is-active {
+        background-color:transparent;
+    }
 }
 
 @media(max-width: 568px){
