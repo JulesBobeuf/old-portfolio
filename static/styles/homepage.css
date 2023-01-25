@@ -7,6 +7,12 @@
     font-size: 1.1rem;
 }
 
+@media(max-width: 950px){
+    .navbar-menu.is-active {
+        background-color:transparent;
+    }
+}
+
 .background{
     background-image: url(/images/nuages.jpg);
     background-size: cover;
