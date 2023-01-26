@@ -91,6 +91,7 @@ h4 {
 .titreProjet {
     padding: 2rem;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .projectsContent {
@@ -154,6 +155,10 @@ footer {
 
     .navbar-menu.is-active {
         background-color:transparent;
+    }
+
+    .colortest {
+        padding: 1rem;
     }
 }
 
