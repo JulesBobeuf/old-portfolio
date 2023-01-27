@@ -269,7 +269,7 @@ option {
     }
     .triProject {
         width: 25%;
-        text-align: center;
+        font-size: 15px;
     }
 
     .navbar-menu.is-active {
