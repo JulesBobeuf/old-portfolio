@@ -3,7 +3,7 @@ title: "Fruit Ninja"
 weight: 17
 date: 2022-05-04T17:12:30+02:00
 draft: true
-categories: "Video Game"
+categories: "Video game"
 summary: "Fruit ninja clone, exportable sur android."
 image: ""
 image1: ""
