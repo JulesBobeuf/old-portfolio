@@ -32,7 +32,7 @@ if (element) {
     element.addEventListener('change',(p,o,n) => {
         console.log(p.target.value);
         let value = p.target.value;
-        let cardsCategory = document.querySelectorAll('.card')
+        let cardsCategory = document.querySelectorAll('.projectsA')
         localStorage.setItem('category',value);
         cardsCategory.forEach((e,i)=> {
             e.parentElement.style.display="none";
