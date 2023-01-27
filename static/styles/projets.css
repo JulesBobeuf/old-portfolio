@@ -149,7 +149,7 @@ footer {
     .rectangle {
         padding-left: 1rem;
         padding-right: 1rem;
-        height: 40%;
+        height: 30%;
         grid-template-columns: repeat(2, 1fr);
     }
 
