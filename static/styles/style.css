@@ -402,4 +402,8 @@ hr {
         padding-left: 0rem;
         padding-right: 0rem;
     }
+
+    .imgHomepage {
+        height: 11vh;
+    }
 }
