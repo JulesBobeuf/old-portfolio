@@ -246,6 +246,7 @@ option {
     .triProject {
         width: 40%;
         height: 1.8rem;
+        text-align: center;
     }
 
     .navbar-menu.is-active {
@@ -366,10 +367,10 @@ hr {
 .imgHomepage {
     width: 20vh;
     height: 20vh;
+    margin: 0.5rem;
 }
 
 .about-me .homepageA {
-    isolation: isolate;
     color: rgb(0, 60, 255);
     font-size: 18px;
 }
@@ -395,5 +396,10 @@ hr {
     
     .skill:hover + .onSkillHover {
         display: none;
+    }
+
+    .section {
+        padding-left: 0rem;
+        padding-right: 0rem;
     }
 }
