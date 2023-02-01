@@ -20,10 +20,9 @@ nbContributors: "1"
 endDate: "-"
 link: "https://github.com/JulesBobeuf/julesbobeuf.github.io"
 
-context: ""
+context: "Context"
 
-contextParagraph: "
-"
+contextParagraph: "For university, we had to make a portfolio website to showcase our work. We were free to use any technology we wanted to program it. I personally decided to use HTML's Hugo framework as it is fast, powerful, and allows me to generate content in a short time. Furthermore, it makes the website very easy to maintain which can only be beneficial. The only downside is that it taught "
 
 p1: ""
 
@@ -33,7 +32,7 @@ p2: ""
 
 p2Text: ""
 
-p3: ""
+p3: "Nowadays"
 
-p3Text: ""
+p3Text: "I am personally proud of the result. It is for sure not perfect, but working on this project taught me a lot about front end and back end. I still continue to work on this portfolio, to improve it and to add new content whenever i can."
 ---

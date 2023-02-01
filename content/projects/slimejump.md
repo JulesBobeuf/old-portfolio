@@ -2,7 +2,7 @@
 title: "Slime Jump"
 weight: 69
 date: 2022-05-04T17:12:30+02:00
-draft: false
+draft: true
 categories: "Video Game"
 summary: "Made a small platform game using Z-Sharp, a fun made programming language."
 image: "/images/SlimeJump-48x48.png"

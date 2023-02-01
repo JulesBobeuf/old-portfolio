@@ -20,10 +20,25 @@ const options = {
     autoMatchOsTheme: true // default: true
 }
 
-const projects = []
-
 const darkmode = new Darkmode(options);
 darkmode.showWidget();
+
+function displaySkillInfo(id) {
+    x = document.querySelector('.descrioeuvre')
+    y = document.querySelector('.desc'.concat('',id))
+    x.classList.toggle('active');
+    y.classList.toggle('active');
+  }
+
+function noDisplaySkillInfo(id) {
+  x = document.querySelector('.descrioeuvre')
+  y = document.querySelector('.desc'.concat('',id))
+  x.classList.toggle('active');
+  y.classList.toggle('active');
+}
+
+
+const projects = []
 
 // Sorting projects
 let element = document.querySelector('.triProject');
