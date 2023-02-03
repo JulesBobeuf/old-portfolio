@@ -245,7 +245,7 @@ option {
 @media(max-width: 768px){
     .triProject {
         width: 40%;
-        height: 1.8rem;
+        height: 2rem;
         text-align: center;
     }
 
@@ -371,7 +371,6 @@ hr {
 }
 
 .about-me .homepageA {
-    isolation: isolate;
     color: rgb(0, 60, 255);
     font-size: 18px;
 }
