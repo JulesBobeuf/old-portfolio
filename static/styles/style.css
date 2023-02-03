@@ -371,6 +371,7 @@ hr {
 }
 
 .about-me .homepageA {
+    isolation: isolate;
     color: rgb(0, 60, 255);
     font-size: 18px;
 }
@@ -404,6 +405,7 @@ hr {
     }
 
     .imgHomepage {
-        height: 11vh;
+        width: 25vh;
+        height: 20vh;
     }
 }

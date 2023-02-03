@@ -97,3 +97,7 @@
     color: white;
     background-color: transparent;
 }
+
+.darkmode--activated .about-me .homepageA {
+    isolation: isolate;
+}
