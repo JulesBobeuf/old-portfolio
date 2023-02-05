@@ -314,33 +314,35 @@ option {
 .onSkillHover{
     opacity: 0%; 
     font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
     top: 35%;
     left: 30%;
     width: 40vw;
+    position: absolute;
 }
 
 .skill {
     max-width: 30vw;
     margin-left: 1rem;
     margin-right: 1rem;
+    position: relative;
 }
 
-.skill:hover + .onSkillHover p {
+.skillContainer:hover .onSkillHover p {
     color:black;
 }
 
-.skill:hover + .onSkillHover {
+.skillContainer:hover .onSkillHover {
     opacity: 100%;
     background-color: rgb(248, 237, 225);
-    border-radius: 2rem;
+    border-radius: 2rem 2rem 2rem 0;
     padding: 1rem;
     border: 2px solid rgb(7, 18, 30);
     font-size: 1rem;
     z-index: 5;
-    
     transition: opacity 1s ease-in-out;
-    position:static;
+
+    left: 9rem;
+    top: -4rem;
     width: 30vw;
     height: 20vh;
 }
@@ -356,6 +358,10 @@ option {
     flex-direction: row;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
+}
+
+.skillContainer {
+    position: relative;
 }
 
 hr {
@@ -412,7 +418,7 @@ hr {
         height: 20vh;
     }
 
-    .homepageH3 {
+    .content h3 {
         color: white;
     }
 }
