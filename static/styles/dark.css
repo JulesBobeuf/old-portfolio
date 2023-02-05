@@ -99,4 +99,5 @@
 
 .darkmode--activated .about-me .homepageA {
     isolation: isolate;
+    mix-blend-mode: color;
 }
