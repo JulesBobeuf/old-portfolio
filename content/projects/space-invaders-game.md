@@ -22,7 +22,7 @@ link: "https://github.com/JulesBobeuf/SpaceInvaders/"
 
 context: "Context"
 
-contextParagraph: "During a course called 'Quality Development', we got taught a lot about programming well and efficiently. One of the topics was the Design Patterns and what a better way to implement them than in a video game!"
+contextParagraph: "During the Quality Development course we were taught how to program more efficiently. One of the topics was design patterns, and what would be a better way to implement them than a video game?"
 
 p1: "Default project"
 
