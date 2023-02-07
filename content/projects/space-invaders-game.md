@@ -34,7 +34,7 @@ p2Text: "There are many features in our game. The aliens first move from left to
 
 p3: "Final Product"
 
-p3Text: "Our game is composed of four levels ranked from easiest to hardest. The functionalities listed above are available in at least one level. The first one is very easy while the last one is almost impossible. On a personal note, I loved to work on this project, and I'm so proud of the final result. I learnt a lot thanks to this project and will reuse this knowledge often."
+p3Text: "Our game is composed of four levels ranked from easiest to hardest. The functionalities listed above are all available in at least one level. The first one is extremely easy whereas the last one is almost impossible. On a personal note, I loved to work on this project, and I'm very proud of the final result. I learnt a lot while working towards this project and will definitely be reusing this knowledge often."
 ---
 
 ##### Project members :
