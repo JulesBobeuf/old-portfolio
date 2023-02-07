@@ -30,7 +30,7 @@ p1Text: "We did not start from scratch. Instead, we were provided with most of t
 
 p2: "Features"
 
-p2Text: "There are plenty of features in our game. The aliens first move from left to right, and will change directions at different times. They can also shoot if we decide to turn it on and change their attack strategy from time to time. Some aliens will also have multiple lives to tank better. On the other hand, the player can shoot normal and strong bullets. Whenever he will get shot, he will be invincible for a certain amount of time. He can also place walls using the up arrow as well as throwing bombs using the bottom arrow. Those bombs need to be hit by the player in order to detonate. Last but not least, some bonuses will randomly drop throughout the game, giving the player extra health."
+p2Text: "There are many features in our game. The aliens first move from left to right, and will change directions at different times. They have the ability to shoot when the setting is enabled, and are also able to change their attack strategy from time to time. Some aliens will also have multiple lives to enhance their ability to survive hits. The player has a 1/5 chance to release a stronger bullet when shooting, which causes more damage to the aliens. Whenever the player hits a shot, they will be invincible for a certain amount of time. The player can also place walls using the up arrow key as well as throwing bombs using the bottom arrow. These bombs need to be hit by a bullet in order to detonate. Finally, some bonuses will randomly drop throughout the game, giving the player extra health."
 
 p3: "Final Product"
 
