@@ -26,11 +26,11 @@ contextParagraph: "During the Quality Development course we were taught how to p
 
 p1: "Default project"
 
-p1Text: "Indeed, we did not start from scratch. We were given the most of the graphic user interface as well as a few classes and the controller. What we had to do now is to implement functionalities that were in the initial game as well as some that come directly from our imaginations. We also had to learn the design patterns along the way and to implement them well of course."
+p1Text: "We did not start from scratch. Instead, we were provided with most of the graphic user interface as well as a few classes and the controller. Next, we had to implement functionalities. Some were in the original game while others were created as a result of our own imagination. Additionally, we were tasked with learning the design patterns along the way and implementing them effectively."
 
 p2: "Features"
 
-p2Text: "There is a lot of features in our game. The aliens first, get to move from left to right, and will at different time of the game change directions. They can also shoot if we decide to turn it on and change their attack strategy from time to time. Some aliens will also have multiple lives to tank better. On the other hand, the player can shoot normal and strong bullets. Whenever he will get shot, he will be invincible for a certain amount of time. He can also place walls using the up arrow as well as throwing bombs using the bottom arrow. Those bombs need to be hit by the player in order to detonate. Last but not least, some bonuses will randomly drop throughout the game, giving the player extra health."
+p2Text: "There are plenty of features in our game. The aliens first move from left to right, and will change directions at different times. They can also shoot if we decide to turn it on and change their attack strategy from time to time. Some aliens will also have multiple lives to tank better. On the other hand, the player can shoot normal and strong bullets. Whenever he will get shot, he will be invincible for a certain amount of time. He can also place walls using the up arrow as well as throwing bombs using the bottom arrow. Those bombs need to be hit by the player in order to detonate. Last but not least, some bonuses will randomly drop throughout the game, giving the player extra health."
 
 p3: "Final Product"
 
