@@ -22,19 +22,19 @@ link: "https://github.com/JulesBobeuf/SpaceInvaders/"
 
 context: "Context"
 
-contextParagraph: "During a course called 'Quality Development', we got taught a lot about programming well and efficiently. One of the topics was the Design Patterns and what a better way to implement them than in a video game!"
+contextParagraph: "During the Quality Development course we were taught how to program more efficiently. One of the topics was design patterns, and what would be a better way to implement them than a video game?"
 
 p1: "Default project"
 
-p1Text: "Indeed, we did not start from scratch. We were given the most of the graphic user interface as well as a few classes and the controller. What we had to do now is to implement functionalities that were in the initial game as well as some that come directly from our imaginations. We also had to learn the design patterns along the way and to implement them well of course."
+p1Text: "We did not start from scratch. Instead, we were provided with most of the graphic user interface as well as a few classes and the controller. Next, we had to implement functionalities. Some were in the original game while others were created as a result of our own imagination. Additionally, we were tasked with learning the design patterns along the way and implementing them effectively."
 
 p2: "Features"
 
-p2Text: "There is a lot of features in our game. The aliens first, get to move from left to right, and will at different time of the game change directions. They can also shoot if we decide to turn it on and change their attack strategy from time to time. Some aliens will also have multiple lives to tank better. On the other hand, the player can shoot normal and strong bullets. Whenever he will get shot, he will be invincible for a certain amount of time. He can also place walls using the up arrow as well as throwing bombs using the bottom arrow. Those bombs need to be hit by the player in order to detonate. Last but not least, some bonuses will randomly drop throughout the game, giving the player extra health."
+p2Text: "There are many features in our game. The aliens first move from left to right, and will change directions at different times. They have the ability to shoot when the setting is enabled, and are also able to change their attack strategy from time to time. Some aliens will also have multiple lives to enhance their ability to survive hits. The player has a 1/5 chance to release a stronger bullet when shooting, which causes more damage to the aliens. Whenever the player hits a shot, they will be invincible for a certain amount of time. The player can also place walls using the up arrow key as well as throwing bombs using the bottom arrow. These bombs need to be hit by a bullet in order to detonate. Finally, some bonuses will randomly drop throughout the game, giving the player extra health."
 
 p3: "Final Product"
 
-p3Text: "Our game is composed of four levels ranked from easiest to hardest. The functionalities listed above are available in at least one level. The first one is very easy while the last one is almost impossible. On a personal note, I loved to work on this project, and I'm so proud of the final result. I learnt a lot thanks to this project and will reuse this knowledge often."
+p3Text: "Our game is composed of four levels ranked from easiest to hardest. The functionalities listed above are all available in at least one level. The first one is extremely easy whereas the last one is almost impossible. On a personal note, I loved to work on this project, and I'm very proud of the final result. I learnt a lot while working towards this project and will definitely be reusing this knowledge often."
 ---
 
 ##### Project members :
