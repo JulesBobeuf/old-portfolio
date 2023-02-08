@@ -20,6 +20,7 @@
 .navbar a:hover{
     color: rgb(14, 110, 255);
     background-color: transparent;
+    font-size: 16.5px;
 }
 
 .div-language{
