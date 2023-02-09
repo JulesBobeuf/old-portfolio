@@ -161,6 +161,9 @@ footer {
     .colortest {
         padding: 1rem;
     }
+    .projectsContent p{
+        text-align: justify;
+    }
 }
 
 @media(max-width: 768px) {

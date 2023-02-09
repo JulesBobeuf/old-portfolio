@@ -54,7 +54,7 @@
     }
 
     #uselesslang {
-        display: block;
+        display: none;
         padding-bottom: 1rem;
     }
 } 
