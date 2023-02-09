@@ -1,6 +1,6 @@
 ---
 title: "Projet Marathon"
-weight: 30
+weight: 20
 date: 2022-05-04T17:12:30+02:00
 draft: false
 categories: "Website"
@@ -22,7 +22,7 @@ link: "https://github.com/JulesBobeuf/Marathon"
 
 context: "Contexte"
 
-contextParagraph: "Pour nos examens de PHP, on a été couplé à un groupe d'étudiants en Multimédia pour faire un site internet en 34 heures. Le thème donné à la promo était 'L'art numérique', nous avons donc choisi l'art numérique français' pour notre projet. Nous devions penser à tout : le logo, le front/back...
+contextParagraph: "Pour nos examens de PHP, on a été couplé à un groupe d'étudiants en Multimédia pour faire un site internet en 34 heures. Le thème donné à la promo était 'L'art numérique'. Notre groupe a choisi 'l'art numérique français' pour notre projet. Nous devions penser à tout : le logo, le front/back...
 Notre groupe était composé d'Aymeric Jakobowski, Thomas Santoro, Clara Amador, Julien Fischer, Louis Legry, Alexandre Feraud et moi-même."
 
 p1: "Back-end"
@@ -35,7 +35,7 @@ p2Text: "Pour suivre le thème français que nous avions choisi précédemment, 
 
 p3: "Produit final"
 
-p3Text: "Grâce à notre groupe de MMI, on a un site web qui fonctionne, qui est beau et qui possède la galerie d'art attendue. Le site n'a pas été peaufiné, car on avait seulement 34 heures pour travailler dessus. Cependant, les fonctionnalités sont présentes ainsi que le cœur du design. Comparé aux autres groupes, je pense que nous nous en sommes bien sortis. Pour finir, je souhaite remercier mon groupe car c'était un projet très difficile, mais nous avons réussi à nous en sortir, et je suis fier du produit final."
+p3Text: "En plus d'avoir un site qui fonctionne, notre site est esthétique et possède la galerie d'art attendue. Le site n'a pas été peaufiné, car on avait seulement 34 heures pour travailler dessus. Cependant, les fonctionnalités sont présentes ainsi que le cœur du design. Comparé aux autres groupes, je pense que nous nous en sommes bien sortis. Pour finir, je souhaite remercier mon groupe, car c'était un projet très difficile, mais nous avons réussi à nous en sortir, et je suis fier du produit final."
 ---
 
 #### Membres du projet :

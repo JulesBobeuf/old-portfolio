@@ -1,6 +1,6 @@
 ---
 title: "Marathon project"
-weight: 30
+weight: 20
 date: 2022-05-04T17:12:30+02:00
 draft: false
 categories: "Website"
@@ -22,7 +22,7 @@ link: "https://github.com/JulesBobeuf/Marathon"
 
 context: "Context"
 
-contextParagraph: "For our PHP Exams, we were coupled with a group of multimedia students to make a website within 34 hours. The default theme was 'Numerical Art', so we chose 'French Numerical Art' for our website. We had to think about everything: The logo, the front/back ...
+contextParagraph: "For our PHP Exams, we were coupled with a group of multimedia students to make a website within 34 hours. The default theme was 'Numerical Art', so we chose 'French Numerical Art' for our website. We had to think about everything: The logo, the front/back-end ...
 Our team was made of Aymeric Jakobowski, Thomas Santoro, Clara Amador, Julien Fischer, Louis Legry, Alexandre Feraud and myself."
 
 p1: "Back-end"
@@ -35,7 +35,7 @@ p2Text: "To follow our French theme, we decided to go fully in and make it obvio
 
 p3: "Final product"
 
-p3Text: "Thanks to the Multimedia team, we have got a working website which looks great and contains a beautiful art gallery that follows the themes given. The website was not polished as we only had 34 hours, but the functionalities are there and the core of the design as well. Compared to some other groups, I'm convinced that we did a great job. To finish, I would like to thank my six team mates as it was really hard but we managed to pull through, and I am so proud of the final product."
+p3Text: "Thanks to the Multimedia team, we got a working website which looks great and contains a beautiful art gallery that follows the themes given. The website was not polished as we only had 34 hours, but the functionalities are there and the core of the design as well. Compared to some other groups, I'm convinced that we did a great job. To finish, I would like to thank my six team mates as it was really hard but we managed to pull through, and I am so proud of the final product."
 ---
 
 #### Project Members :

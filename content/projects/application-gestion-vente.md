@@ -1,6 +1,6 @@
 ---
 title: "Stock / Sales management Application"
-weight: 20
+weight: 25
 date: 2022-05-04T17:12:30+02:00
 draft: false
 categories: "Application"

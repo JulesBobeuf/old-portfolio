@@ -22,12 +22,12 @@ link: "https://github.com/JulesBobeuf/SpaceInvaders/"
 
 context: "Contexte"
 
-contextParagraph: "Durant notre cours 'Qualité de développement, nous avions appris à développer proprement et efficacement. L'un des thèmes principaux était les patrons de conceptions, et quoi de mieux que de les implémenter dans un jeux vidéo ? "
+contextParagraph: "Durant notre cours 'Qualité de développement, nous avions appris à développer proprement et efficacement. L'un des thèmes principaux était 'les patrons de conceptions', et quoi de mieux que de les implémenter dans un jeu vidéo ? "
 
 p1: "Projet de base"
 
 
-p1Text: "Nous ne sommes pas partis de rien. En effet, l'interface graphique était presque terminé ainsi que les classes de base et le controller. Nous devions cependant rajouter énormément de fonctionnalités, présente dans le jeu initial, ainsi que d'autre sortis de nos imaginations. Nous devions aussi apprendre les patrons de conceptions, mais aussi bien les implémenter."
+p1Text: "Nous ne sommes pas partis de rien. En effet, l'interface graphique était presque terminée ainsi que les classes de base et le controller. Nous devions cependant rajouter énormément de fonctionnalités, présente dans le jeu initial, ainsi que d'autre sortis de nos imaginations. Nous devions aussi apprendre les patrons de conceptions, mais aussi bien les implémenter."
 
 
 p2: "Fonctionnalités"

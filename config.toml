@@ -20,10 +20,6 @@ info = ["Etudiant", "Back End Dev"]
 description = "Site personel de Jules Bobeuf"
 keywords = "blog,developpeur,java,c#,python"
 
-[[languages.en.menu.main]]
-name = "About me"
-weight = 1
-url = "/about-me"
 
 [[languages.en.menu.main]]
 name = "Projects"
@@ -58,17 +54,12 @@ languageName = "Français"
 title = "Jules BOBEUF"
 
 [[languages.fr.menu.main]]
-name = "A propos"
-weight = 1
-url = "/fr/about-me"
-
-[[languages.fr.menu.main]]
 name = "Projets"
 weight = 2
 url = "/fr/projects"
 
 [[languages.fr.menu.main]]
-name = "Pendu"
+name = "Jeu du Pendu"
 weight = 4
 url = "/fr/hangman"
 
@@ -89,9 +80,6 @@ url = "/fr/hangman"
     pre = "CV"
     url = "/files/cv_fr.pdf"
     target = "_blank"
-
-[[menu.footer]]
-    #name = "Business inquiries : bobeuf.jules@gmail.com"
 
 [params]
     author = "Jules B."

@@ -1,35 +1,294 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Jules BOBEUF</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
-        <link rel="stylesheet" href="{{ "/styles/homepage.css" | relURL }} "/>
-        <link rel="stylesheet" href="{{ "/styles/navbar.css" | relURL }} "/>
-        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script src="/js/index.js" defer></script>     
-        <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>  
-</head>
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
 
-<div class="navHomepage">
-{{ partial "header.html" .}}
-</div>
+    <div class="section">
+        <div class="content">
+            <div class="circular--portrait"> 
+                <img src="/images/me.png"/> 
+            </div>
+            <div class="about-me">
+                <h2>About me</h2>
+                <p> Heya! My name's Jules, I'm a 19 year old French man and I am currently studying computer science! <br>
+                    On this website, you can find all the relevant information you may need about what I do in IT, but here's a little resume of me: <br>
+                    I graduated from high school with Mathematics and English Specialties with distinctions in 2021. <br>
+                    I also obtained my end of study certificate in music theory with honors in 2019. <br>
+                    During my studies, I have explored all fields in Computer Science, but programming applications has been my favorite. </p>
 
-<body>
-    <div class="homepage">
-        <div class="circular--portrait"> 
-            <img src="images/me.png"/> 
-        </div>
-        <h1 class="title">Jules Bobeuf</h1>
-        <h2 class="subtitle">IT Student</h2>
-        <div class="background">
+                    <h2>Certifications</h2>
+
+                    <a class="homepageA" href="https://www.udemy.com/certificate/UC-174b96a6-078f-46c1-a580-dd6db84f6d4a/">C# Masterclass </a>
+                    <p>Udemy course about C#, WPF, Unity, Linq, and .NET as a whole.</p>
+
+                    <a class="homepageA" href="https://pix.fr/">Pix : P-CWP94MPR</a>
+                    <p>Pix is a public French service that certifies French Students' numerical skills.</p>
+            </div>
+            <div class="Competences">
+                <h2>Skills</h2>
+                <div class="skills">
+                    <hr>
+                    <div class="line">
+                        <div class="skillContainer">
+                            <div class="skill">
+                                <img class="imgHomepage" src="/images/skills/java.png">
+                            </div>
+                            <div class="onSkillHover">
+                                <h3>Java</h3>
+                                <p>Strong Language Knowledge : OOP, Server, Recursivity...</p>
+                                <p>Learnt at university.</p>
+                            </div>
+                        </div>
+                        <div class="skillContainer">
+                            <div class="skill">
+                                <img class="imgHomepage" src="/images/skills/kotlin.png">
+                            </div>
+                            <div class="onSkillHover">
+                                <h3>Kotlin</h3>
+                                <p>Basic Language Knowledge.</p>
+                                <p>Learning it at university for Android development.</p>
+                            </div>
+                        </div>
+                        <div class="skillContainer">
+                            <div class="skill">
+                                <img class="imgHomepage" src="/images/skills/sceneBuilder.png">
+                            </div>
+                            <div class="onSkillHover">
+                                <h3>SceneBuilder / JavaFX</h3>
+                                <p>Basic Tool Knowledge.</p>
+                                <p>Learnt it at university through projects.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="line">
+                        <div class="skillContainer">
+                            <div class="skill">
+                                <img class="imgHomepage" src="/images/skills/csharp.png">
+                            </div>
+                            <div class="onSkillHover">
+                                <h3>C#</h3>
+                                <p>General Language Knowledge : OOP, Threads, Linq...</p>
+                                <p>Earnt a Udemy Certificate.</p>
+                            </div>
+                        </div>
+                        <div class="skillContainer">
+                            <div class="skill">
+                                <img class="imgHomepage" src="/images/skills/unity.png">
+                            </div>
+                            <div class="onSkillHover">
+                                <h3>Unity</h3>
+                                <p>Basic Knowledge : Physics, Prefabs...</p>
+                                <p>Learnt on Udemy and made a few games with it.</p>
+                            </div>
+                        </div>
+                        <div class="skillContainer">
+                            <div class="skill">
+                                <img class="imgHomepage" src="/images/skills/dotnet.png">
+                            </div>
+                            <div class="onSkillHover">
+                                <h3>.NET</h3>
+                                <p>Basic Framework Knowledge : WPF, .NET5, .NET6</p>
+                                <p>Learnt on Udemy.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="line">
+                        <div class="skillContainer">
+                            <div class="skill">
+                                <img class="imgHomepage" src="/images/skills/python.png">
+                            </div>
+                            <div class="onSkillHover">
+                                <h3>Python</h3>
+                                <p>Great Language Knowledge : Competitive Programming...</p>
+                                <p>Learnt it at university, improved it for SWERC2023</p>
+                            </div>
+                        </div>
+                        <div class="skillContainer">
+                            <div class="skill">
+                                <img class="imgHomepage" src="/images/skills/flask.png">
+                            </div>
+                            <div class="onSkillHover">
+                                <h3>Flask</h3>
+                                <p>Basic Framework Knowledge.</p>
+                                <p>Learnt it at university for a project related to APIs.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="line">
+                        <div class="skillContainer">
+                            <div class="skill">
+                                <img class="imgHomepage" src="/images/skills/rust.png">
+                            </div>
+                            <div class="onSkillHover">
+                                <h3>Rust</h3>
+                                <p>Basic Language Knowledge.</p>
+                                <p>(currently learning on Udemy.)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="line">
+                        <div class="skillContainer">
+                            <div class="skill">
+                                <img class="imgHomepage" src="/images/skills/php.png">
+                            </div>
+                            <div class="onSkillHover">
+                                <h3>PHP</h3>
+                                <p>Good Language Knowledge : Procedural, OOP...</p>
+                                <p>Learnt it at University, got LinkedIn Badge.</p>
+                            </div>
+                        </div>
+                        <div class="skillContainer">
+                            <div class="skill">
+                                <img class="imgHomepage" src="/images/skills/laravel.png">
+                            </div>
+                            <div class="onSkillHover">
+                                <h3>Laravel</h3>
+                                <p>Good Framework Knowledge : CRUD, Blade, Eloquent, RestAPI Servers...</p>
+                                <p>Learnt at university and used it for projects.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="line">
+                        <div class="skillContainer">
+                            <div class="skill">
+                                <img class="imgHomepage" src="/images/skills/ruby.png">
+                            </div>
+                            <div class="onSkillHover">
+                                <h3>Ruby</h3>
+                                <p>Basic Language Knowledge.</p>
+                                <p>(currently learning on Udemy.)</p>
+                            </div>
+                        </div>
+                        <!--
+                        <div class="skillContainer">
+                            <div class="skill">
+                                <img class="imgHomepage" src="/images/skills/rails.png">
+                            </div>
+                            <div class="onSkillHover">
+                                <p>On Rails framework (currently learning)</p>
+                            </div> 
+                        </div>
+                    -->
+                    </div>
+                    <hr>
+
+                    <div class="line">
+                        <div class="skillContainer">
+                            <div class="skill">
+                                <img class="imgHomepage" src="/images/skills/html.png">
+                            </div>
+                            <div class="onSkillHover">
+                                <h3>HTML</h3>
+                                <p>Great Language Knowledge.</p>
+                                <p>Used it for all my web projects, including this one.</p>
+                            </div>
+                        </div>
+                        <div class="skillContainer">
+                            <div class="skill">
+                                <img class="imgHomepage" src="/images/skills/css.png">
+                            </div>
+                            <div class="onSkillHover">
+                                <h3>CSS</h3>
+                                <p>Good Language Knowledge.</p>
+                                <p>Used it for all my web projects, including this one.</p>
+                            </div>
+                        </div>
+                        <div class="skillContainer">
+                            <div class="skill">
+                                <img class="imgHomepage" src="/images/skills/hugo.png">
+                            </div>
+                            <div class="onSkillHover">
+                                <h3>Hugo</h3>
+                                <p>Overall Framework Knowledge.</p>
+                                <p>Learnt it at University and used it to make my portfolio.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="line">
+                        <div class="skillContainer">
+                            <div class="skill">
+                                <img class="imgHomepage" src="/images/skills/typescript.png">
+                            </div>
+                            <div class="onSkillHover">
+                                <h3>TypeScript</h3>
+                                <p>Basic Language Knowledge, OOP.</p>
+                                <p>Currently learning it at university.</p>
+                            </div>
+                        </div>
+                        <div class="skillContainer">
+                            <div class="skill">
+                                <img class="imgHomepage" src="/images/skills/angular.png">
+                            </div>
+                            <div class="onSkillHover">
+                                <h3>Angular</h3>
+                                <p></p>
+                                <p>(will learn at university very soon)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="line">
+                        <div class="skillContainer">
+                            <div class="skill">
+                                <img class="imgHomepage" src="/images/skills/postgresql.png">
+                            </div>
+                            <div class="onSkillHover">
+                                <p>PostgreSQL</p>
+                                <p>SQL PL/PG SQL Language Knowledge : Triggers, Functions...</p>
+                                <p>Learnt at university.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="line">
+                        <div class="skillContainer">
+                            <div class="skill">
+                                <img class="imgHomepage" src="/images/skills/git.png">
+                            </div>
+                            <div class="onSkillHover">
+                                <h3>Git</h3>
+                                <p>Overall Knowledge : commands, concepts.</p>
+                                <p>Learnt at university.</p>
+                            </div>
+                        </div>
+                        <div class="skillContainer">
+                            <div class="skill">
+                                <img class="imgHomepage" src="/images/skills/github.png">
+                            </div>
+                            <div class="onSkillHover">
+                                <h3>GitHub</h3>
+                                <p>Overall Knowledge, GitHub Pages.</p>
+                                <p>Learnt at university and by myself.</p>
+                            </div>
+                        </div>
+                        <div class="skillContainer">
+                            <div class="skill">
+                                <img class="imgHomepage" src="/images/skills/gitlab.png">
+                            </div>
+                            <div class="onSkillHover">
+                                <h3>GitLab</h3>
+                                <p>Overall Knowledge, CI/CD Basics</p>
+                                <p>Learnt at university.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
         </div>
     </div>
-</body>
-</html>
+</div>
+
+{{ partial "footer.html" . }}

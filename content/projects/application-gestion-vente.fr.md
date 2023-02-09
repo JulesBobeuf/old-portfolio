@@ -1,6 +1,6 @@
 ---
 title: "Application gestion vente"
-weight: 20
+weight: 25
 date: 2022-05-04T17:12:30+02:00
 draft: false
 categories: "Application"
@@ -34,7 +34,7 @@ p2Text: "A ce moment-là, on avait une application console, mais ce n'était pas
 
 p3: "Comment ça marche ?"
 
-p3Text: "Lorsque l'on lance l'application, on se trouve devant une vue qui va nous laisser choisir dans quelles sous parties nous voulons aller : clients, stocks... Après ça, on va avoir une autre liste de menu qui va s'ouvrir et nous laisser choisir si on veut accéder aux données actuelles ou si on veut les modifier, en ajouter ou supprimant des objets par exemple. On pouvait aussi choisir comment trier les objets. Au final, c'était une appli très compliquée, surtout pour des premières années, mais on a réussi et c'est le principal."
+p3Text: "Lorsque l'on lance l'application, on se trouve devant une vue qui va nous laisser choisir dans quelles sous parties nous voulons aller : clients, stocks... Après ça, on va avoir une autre liste de menu qui va s'ouvrir et nous laisser choisir si on veut accéder aux données actuelles ou si on veut les modifier, en ajouter ou supprimant des objets par exemple. On pouvait aussi choisir comment trier les objets. Au final, c'était un projet très compliqué, surtout pour des premières années, mais on a réussi et c'est le principal."
 ---
 
 #### Membres du projet :
