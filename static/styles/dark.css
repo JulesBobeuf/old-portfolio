@@ -101,3 +101,9 @@
     isolation: isolate;
     mix-blend-mode: plus-lighter;
 }
+
+@media(max-width: 1250px) {
+    .darkmode--activated .content h3 {
+        color: white;
+    }
+}
