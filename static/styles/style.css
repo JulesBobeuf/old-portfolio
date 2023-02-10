@@ -266,61 +266,7 @@ option {
     }
 }
 
-/* Hangman */
-.hangman {
-    align-items: center;
-    text-align: center;
-    padding: 2rem;
-}
-
-.hangmanIntro {
-    padding: 0.5rem;
-}
-
-.game-container {
-    isolation: isolate;
-    background-color: transparent;
-    color: black;
-    padding: 1rem;
-}
-
-.formHangman {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.formHangman input[type="text"] {
-    width: 5rem;
-    height: 1.75rem;
-    font-size: 15px;
-    text-align: center;
-    border: none;
-    border-radius: 5px;
-    border: solid black 2px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.formHangman button[type="submit"] {
-    width: 5rem;
-    height: 1.75rem;
-    font-size: 15px;
-    border: none;
-    border-radius: 5px; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-    margin-left: 1rem;
-}
-
-.usedLetters {
-    padding: 1rem;
-}
-
-.hangmanOutro {
-    padding-top: 0.2rem;
-}
-
-/* test homepage */
+/*homepage */
 
 .onSkillHover{
     opacity: 0%; 
