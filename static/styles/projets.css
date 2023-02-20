@@ -32,6 +32,10 @@ img {
     padding: 2rem;
 }
 
+strong {
+    font-weight: normal;
+}
+
 .rectangle{
     isolation: isolate;
     align-self: center;
