@@ -64,4 +64,8 @@ a.navbar-item:hover {
     }
 } 
 
+strong {
+    font-weight: normal;
+}
+
 
