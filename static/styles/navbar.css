@@ -6,6 +6,10 @@
     align-items: center;
 }
 
+.logo p:hover {
+    color: rgb(14, 110, 255);
+}
+
 .div-language .ul-language{
     position: absolute;
     color: black;
