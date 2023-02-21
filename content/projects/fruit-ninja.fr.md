@@ -5,7 +5,7 @@ date: 2022-05-04T17:12:30+02:00
 draft: false
 categories: "Video game"
 summary: "Un clone du jeu Fruit Ninja qui est adapté à la plupart des systèmes d'exploitation."
-image: "/images/fruitN.png"
+image: "/images/fruitNinja.png"
 image1: "/images/fruitN.png"
 image2: "/images/fruitNinjaEnd.png"
 

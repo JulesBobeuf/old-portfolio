@@ -59,7 +59,7 @@ weight = 2
 url = "/fr/projects"
 
 [[languages.fr.menu.main]]
-name = "Jeu du Pendu"
+name = "Pendu"
 weight = 4
 url = "/fr/hangman"
 
