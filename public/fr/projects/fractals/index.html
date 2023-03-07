@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jules BOBEUF</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link rel="icon" href="/images/mebw.png" type="image/icon type">
+    <link rel="stylesheet" href="/styles/projets.css "/> 
+    <link rel="stylesheet" href="/styles/navbar.css "/>
+    <link rel="stylesheet" href="/styles/dark.css "/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/js/index.js" defer></script>     
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>      
+</head>
+
+<header>
+    <nav class="navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="/" title="home" class="navbar-item">
+                    <span class="logo">
+                        <p><strong>Jules BOBEUF</strong></p>
+                    </span></a>
+                    <a href="/files/cv_fr.pdf"class="navbar-item is-hidden-desktop"
+                    title="CV">
+                    <span class="icon">CV</span></a><a href="https://github.com/JulesBobeuf"class="navbar-item is-hidden-desktop"
+                    title="GitHub">
+                    <span class="icon"><i class='fab fa-github'></i></span></a><a href="https://www.linkedin.com/in/jules-bobeuf"class="navbar-item is-hidden-desktop"
+                    title="Linkedin">
+                    <span class="icon"><i class='fab fa-linkedin'></i></span></a>
+                        <a role="button" class="navbar-burger" aria-expanded="false">
+                            <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></a>
+
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-start"><a href="/fr/projects"class="navbar-item">Projets</a>
+                        
+                </div>
+                <div class="navbar-end">
+                    
+                    <a href="/files/cv_fr.pdf"class="navbar-item is-hidden-touch" title="CV">
+                    <span class="icon">CV</span></a>
+                    <a href="https://github.com/JulesBobeuf"class="navbar-item is-hidden-touch" title="GitHub">
+                    <span class="icon"><i class='fab fa-github'></i></span></a>
+                    <a href="https://www.linkedin.com/in/jules-bobeuf"class="navbar-item is-hidden-touch" title="Linkedin">
+                    <span class="icon"><i class='fab fa-linkedin'></i></span></a>
+                    <div class="div-language">
+                        <a id="uselesslang">Languages</a>
+                        <ul class="ul-language"> 
+                        
+                            <li class="li-language"><a href="/"> English</a> </li>
+                        
+                            <li class="li-language"><a href="/fr/"> Français</a> </li>
+                        
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div class="rectangle">
+        <div class="inRectangle">
+            <p>Type</p>
+            <p>Projet Universitaire</p>
+        </div>
+        <div class="inRectangle">
+            <p>Contributeurs</p>
+            <p> 3 </p>
+        </div>
+        <div class="inRectangle">
+            <p>Date de fin</p>
+            <p> 28/10/2022</p>
+        </div>
+        <div class="inRectangle">
+            <p>Lien du projet</p>
+            <a href="https://github.com/JulesBobeuf/Fractals"> <i class='fab fa-github'></i> GitHub</a>
+        </div>
+    </div>
+    <div class="projectsContent">
+        <div class="colortest">
+            <h1 class="titreProjet"> Génération de fractales </h1>
+            <h4>Contexte</h4>
+            <br>
+            <p>Dans le cadre de la validation de notre troisième semestre, Aymeric Jakobowski, Thomas Santoro et moi-même devions réaliser un programme java générant des fractales en utilisant les patrons de conceptions que nous avions étudié (stratégies, décorateurs, constructeurs...)</p>
+            <br><br>
+
+            <h4>Le commencement</h4>
+            <br>
+            <p>Pour commencer, nous devions représenter en java les formules mathématiques des différentes fractales. Ce n&#39;était pas trop difficile appart pour l&#39;implémentation de certains patrons de conception, notamment l&#39;itérateur. Cependant, pour les fractales de Sierpinski, il fallait utiliser la récursivité. Ce fut compliqué, mais Aymeric a trouvé la solution pour nous. De mon côté, j&#39;ai programmé les classes créant les points complexes ainsi que des plans complexes qui nous ont ensuite permis de générer les images.</p>
+            <br><br>
+
+            <div> 
+                <figure>
+                    <img class="imgprojects" src="/images/juliaCyan.jpg" alt="">
+                </figure>
+            </div>
+            <br> <br>
+
+            <h4>La génération des images</h4>
+            <br>
+            <p>Pour générer les fractales, il fallait que nous les représentions graphiquement. Pour ce faire, nous avions développé des classes le faisant pour nous, en utilisant quelques adaptateurs ainsi qu&#39;un constructeur. Au final, le programme génère des images à la racine du projet.</p>
+            <br><br>
+
+            <div> 
+                <figure>
+                    <img class="imgprojects" src="/images/tapisDeSierpinski.jpg" alt="">
+                </figure>
+            </div>
+            <br> <br>
+
+            <h4>Le rendu final</h4>
+            <br>
+            <p>On avait deux manières de représenter des images. La première était de lancer le programme Java à l&#39;aide d&#39;une classe de test. La seconde était de lancer un programme bash créé pour la suite choisis. On pouvait choisir différents paramètres pour la génération des images, notamment la palette de couleurs utilisée, le zoom, la taille de l&#39;image... Pour finir, c&#39;était un projet très compliqué, remplis d&#39;événement aléatoire (notamment moi qui étais tombé malade cette semaine-là) mais ce qui compte, c&#39;est que nous avions réussi à rendre le projet dans les délais avec la plupart des fonctionnalités.</p>
+            <br><br>
+
+            <h4 id="membres-du-projet-">Membres du projet :</h4>
+<p> </p>
+<ul>
+<li>Aymeric Jakobowski : <a href="https://www.linkedin.com/in/aymeric-jakobowski/">LinkedIn</a></li>
+<li>Thomas Santoro : <a href="https://www.linkedin.com/in/thomas-santoro/">LinkedIn</a></li>
+</ul>
+
+        </div>
+    </div>
+</body>
+<footer>
+        <p>Contact : bobeuf.jules@gmail.com</p>
+</footer>

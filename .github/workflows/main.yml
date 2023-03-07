@@ -1,26 +1,25 @@
-# Workflow déploiement Hugo
-
-name: Publication
-
-# Déterminer les événements sur lesquels déclencher le job de CI
 on:
   push:
-    branches: [ main ]
-  pull_request:
-
-# Un workflow de CI est composé de 1 ou plusieurs jobs lancés de manière séquentielle ou parallèle
+    branches:
+      - main
+    paths:
+      - public/**
+      
+name: 🚀 Deploy website on push
 jobs:
-  # Ce workflow comprend un seul job appelé "deploy"
-  deploy:
+  web-deploy:
+    name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-        with:
-          submodules: recursive
-      - uses: benmatselby/hugo-deploy-gh-pages@master
-        env:
-          HUGO_VERSION: 0.99.0
-          HUGO_EXTENDED: true
-          TARGET_REPO: julesbobeuf/julesbobeuf.github.io
-          TARGET_BRANCH: gh-pages
-          TOKEN: ${{ secrets.HUGO_SECRET_TOKEN }}
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v2
+    
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.3.3
+      with:
+        server: ${{ secrets.ftp_server }}
+        username: ${{ secrets.ftp_user }}
+        password: ${{ secrets.ftp_password }}
+        local-dir: './public/'
+
+#by Arnaud Fievet
