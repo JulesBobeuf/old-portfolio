@@ -26,11 +26,6 @@ name = "Projects"
 weight = 2
 url = "/projects"
 
-[[languages.en.menu.main]]
-name = "Hangman"
-weight = 4
-url = "/hangman"
-
     [[languages.en.menu.social]]
     name = "GitHub"
     url = "https://github.com/JulesBobeuf"
@@ -57,11 +52,6 @@ title = "Jules BOBEUF"
 name = "Projets"
 weight = 2
 url = "/fr/projects"
-
-[[languages.fr.menu.main]]
-name = "Pendu"
-weight = 4
-url = "/fr/hangman"
 
     [[languages.fr.menu.social]]
     name = "GitHub"
