@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Jules BOBEUF</title>
+    <link>/projects/</link>
+    <description>Recent content in Projects on Jules BOBEUF</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 May 2022 17:12:30 +0200</lastBuildDate><atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Space Invaders Game</title>
+      <link>/projects/space-invaders-game/</link>
+      <pubDate>Wed, 04 May 2022 17:12:30 +0200</pubDate>
+      
+      <guid>/projects/space-invaders-game/</guid>
+      <description>Made a space invaders game with multiple game levels using design patterns.</description>
+    </item>
+    
+    <item>
+      <title>Fractals Generation</title>
+      <link>/projects/fractals/</link>
+      <pubDate>Wed, 04 May 2022 17:12:30 +0200</pubDate>
+      
+      <guid>/projects/fractals/</guid>
+      <description>Created an application that generates fractals.</description>
+    </item>
+    
+    <item>
+      <title>Fruit Ninja</title>
+      <link>/projects/fruit-ninja/</link>
+      <pubDate>Wed, 04 May 2022 17:12:30 +0200</pubDate>
+      
+      <guid>/projects/fruit-ninja/</guid>
+      <description>Fruit ninja clone that is adapted to most operating systems.</description>
+    </item>
+    
+    <item>
+      <title>Marathon project</title>
+      <link>/projects/marathon/</link>
+      <pubDate>Wed, 04 May 2022 17:12:30 +0200</pubDate>
+      
+      <guid>/projects/marathon/</guid>
+      <description>Programmed a website within 2 days that displays an art gallery.</description>
+    </item>
+    
+    <item>
+      <title>Stock / Sales management Application</title>
+      <link>/projects/application-gestion-vente/</link>
+      <pubDate>Wed, 04 May 2022 17:12:30 +0200</pubDate>
+      
+      <guid>/projects/application-gestion-vente/</guid>
+      <description>Creation of a stock / sales management app.</description>
+    </item>
+    
+    <item>
+      <title>Discord bot</title>
+      <link>/projects/discord-bot/</link>
+      <pubDate>Wed, 04 May 2022 17:12:30 +0200</pubDate>
+      
+      <guid>/projects/discord-bot/</guid>
+      <description>Development of a Discord bot that handles community events.</description>
+    </item>
+    
+    <item>
+      <title>My first website</title>
+      <link>/projects/site-web/</link>
+      <pubDate>Wed, 04 May 2022 17:12:30 +0200</pubDate>
+      
+      <guid>/projects/site-web/</guid>
+      <description>Created a showcase website for an event company.</description>
+    </item>
+    
+    <item>
+      <title>Weather app</title>
+      <link>/projects/weather-app/</link>
+      <pubDate>Wed, 04 May 2022 17:12:30 +0200</pubDate>
+      
+      <guid>/projects/weather-app/</guid>
+      <description>Development of a website that displays atmospheric data through an API.</description>
+    </item>
+    
+  </channel>
+</rss>

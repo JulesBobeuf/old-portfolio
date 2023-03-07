@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jules BOBEUF</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link rel="icon" href="/images/mebw.png" type="image/icon type">
+    <link rel="stylesheet" href="/styles/projets.css "/> 
+    <link rel="stylesheet" href="/styles/navbar.css "/>
+    <link rel="stylesheet" href="/styles/dark.css "/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/js/index.js" defer></script>     
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>      
+</head>
+
+<header>
+    <nav class="navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="/" title="home" class="navbar-item">
+                    <span class="logo">
+                        <p><strong>Jules BOBEUF</strong></p>
+                    </span></a>
+                    <a href="/files/cv_fr.pdf"class="navbar-item is-hidden-desktop"
+                    title="CV">
+                    <span class="icon">CV</span></a><a href="https://github.com/JulesBobeuf"class="navbar-item is-hidden-desktop"
+                    title="GitHub">
+                    <span class="icon"><i class='fab fa-github'></i></span></a><a href="https://www.linkedin.com/in/jules-bobeuf"class="navbar-item is-hidden-desktop"
+                    title="Linkedin">
+                    <span class="icon"><i class='fab fa-linkedin'></i></span></a>
+                        <a role="button" class="navbar-burger" aria-expanded="false">
+                            <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></a>
+
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-start"><a href="/fr/projects"class="navbar-item">Projets</a>
+                        
+                </div>
+                <div class="navbar-end">
+                    
+                    <a href="/files/cv_fr.pdf"class="navbar-item is-hidden-touch" title="CV">
+                    <span class="icon">CV</span></a>
+                    <a href="https://github.com/JulesBobeuf"class="navbar-item is-hidden-touch" title="GitHub">
+                    <span class="icon"><i class='fab fa-github'></i></span></a>
+                    <a href="https://www.linkedin.com/in/jules-bobeuf"class="navbar-item is-hidden-touch" title="Linkedin">
+                    <span class="icon"><i class='fab fa-linkedin'></i></span></a>
+                    <div class="div-language">
+                        <a id="uselesslang">Languages</a>
+                        <ul class="ul-language"> 
+                        
+                            <li class="li-language"><a href="/"> English</a> </li>
+                        
+                            <li class="li-language"><a href="/fr/"> Français</a> </li>
+                        
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div class="rectangle">
+        <div class="inRectangle">
+            <p>Type</p>
+            <p>Projet Universitaire</p>
+        </div>
+        <div class="inRectangle">
+            <p>Contributeurs</p>
+            <p> 3 </p>
+        </div>
+        <div class="inRectangle">
+            <p>Date de fin</p>
+            <p> 7/11/2022</p>
+        </div>
+        <div class="inRectangle">
+            <p>Lien du projet</p>
+            <a href="https://github.com/JulesBobeuf/weather-app"> <i class='fab fa-github'></i> GitHub</a>
+        </div>
+    </div>
+    <div class="projectsContent">
+        <div class="colortest">
+            <h1 class="titreProjet"> Application températures  </h1>
+            <h4>Contexte</h4>
+            <br>
+            <p>Thomas Santoro, Aymeric Jakobowski et moi-même avons développé une application web qui affiche les données atmosphériques d&#39;une ville sur une période donnée. Le but était de récupérer les données, de les stocker via une base de données SQLite et de les afficher sur une page web au format texte ainsi qu&#39;avec des graphiques, à l&#39;aide du framework Python Flask.</p>
+            <br><br>
+
+            <h4>Récupération des données</h4>
+            <br>
+            <p>La première étape était donc de récupérer les données. Pour ce faire, nous avons utilisé une API (http://wttr.in) qui collecte les données pour nous. Nous les récupérons dans une liste, qui entre ensuite les informations dans la base de données La base de données a été développée entièrement en Python. Il y a des fonctions permettant de créer et de supprimer les tables, d&#39;insérer des données, et de récupérer les données. Nous avons traité cette partie en créant le schéma de la base de données, et en implémentant les fonctions permettant de l&#39;utiliser.</p>
+            <br><br>
+
+            <div> 
+                <figure>
+                    <img class="imgprojects" src="/images/MSIDiagram.png" alt="">
+                </figure>
+            </div>
+            <br> <br>
+
+            <h4>Affichage des données et automatisation</h4>
+            <br>
+            <p>Pour afficher les données, nous devions premièrement récupérer les données de la base de données. Pour ce faire, nous utilisions des requêtes SQL adaptée à ce que le client souhaite. Ensuite, nous avons utilisé des templates HTML avec du CSS pour pouvoir rendre l&#39;affichage plus clément à l&#39;œil humain. De plus, nous avons inséré des graphiques à l&#39;aide de Matplotlib, un module Python, pour rendre le tout plus visuel. Toutes les heures, le programme récupère les données atmosphériques demandées et les rentres dans la base de données. De plus, le programme entrera dans un logger toutes les requêtes qu&#39;il effectue. Cela permet de vérifier que tout fonctionne, et de détecter les problèmes plus rapidement.</p>
+            <br><br>
+
+            <div> 
+                <figure>
+                    <img class="imgprojects" src="/images/msi.png" alt="">
+                </figure>
+            </div>
+            <br> <br>
+
+            <h4>Résultat final</h4>
+            <br>
+            <p>Dès lors que le programme est lancé, il s&#39;occupe de tout. Le client n&#39;a qu&#39;à aller sur la page web pour consulter les données. Lorsque celui-ci arrive sur la page web, il devra sélectionner une ville ainsi qu&#39;indiquer une période de temps. Ainsi, le programme n&#39;affichera que les données récupérées dans cet intervalle. </p>
+            <br><br>
+
+            <h4 id="membres-du-projet-">Membres du projet :</h4>
+<p> </p>
+<ul>
+<li>Aymeric Jakobowski : <a href="https://www.linkedin.com/in/aymeric-jakobowski/">LinkedIn</a></li>
+<li>Thomas Santoro : <a href="https://www.linkedin.com/in/thomas-santoro/">LinkedIn</a></li>
+</ul>
+
+        </div>
+    </div>
+</body>
+<footer>
+        <p>Contact : bobeuf.jules@gmail.com</p>
+</footer>

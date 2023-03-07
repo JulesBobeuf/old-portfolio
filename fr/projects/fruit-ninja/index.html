@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jules BOBEUF</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link rel="icon" href="/images/mebw.png" type="image/icon type">
+    <link rel="stylesheet" href="/styles/projets.css "/> 
+    <link rel="stylesheet" href="/styles/navbar.css "/>
+    <link rel="stylesheet" href="/styles/dark.css "/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/js/index.js" defer></script>     
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>      
+</head>
+
+<header>
+    <nav class="navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="/" title="home" class="navbar-item">
+                    <span class="logo">
+                        <p><strong>Jules BOBEUF</strong></p>
+                    </span></a>
+                    <a href="/files/cv_fr.pdf"class="navbar-item is-hidden-desktop"
+                    title="CV">
+                    <span class="icon">CV</span></a><a href="https://github.com/JulesBobeuf"class="navbar-item is-hidden-desktop"
+                    title="GitHub">
+                    <span class="icon"><i class='fab fa-github'></i></span></a><a href="https://www.linkedin.com/in/jules-bobeuf"class="navbar-item is-hidden-desktop"
+                    title="Linkedin">
+                    <span class="icon"><i class='fab fa-linkedin'></i></span></a>
+                        <a role="button" class="navbar-burger" aria-expanded="false">
+                            <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></a>
+
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-start"><a href="/fr/projects"class="navbar-item">Projets</a>
+                        
+                </div>
+                <div class="navbar-end">
+                    
+                    <a href="/files/cv_fr.pdf"class="navbar-item is-hidden-touch" title="CV">
+                    <span class="icon">CV</span></a>
+                    <a href="https://github.com/JulesBobeuf"class="navbar-item is-hidden-touch" title="GitHub">
+                    <span class="icon"><i class='fab fa-github'></i></span></a>
+                    <a href="https://www.linkedin.com/in/jules-bobeuf"class="navbar-item is-hidden-touch" title="Linkedin">
+                    <span class="icon"><i class='fab fa-linkedin'></i></span></a>
+                    <div class="div-language">
+                        <a id="uselesslang">Languages</a>
+                        <ul class="ul-language"> 
+                        
+                            <li class="li-language"><a href="/"> English</a> </li>
+                        
+                            <li class="li-language"><a href="/fr/"> Français</a> </li>
+                        
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div class="rectangle">
+        <div class="inRectangle">
+            <p>Type</p>
+            <p>Udemy Project</p>
+        </div>
+        <div class="inRectangle">
+            <p>Contributeurs</p>
+            <p> 1 </p>
+        </div>
+        <div class="inRectangle">
+            <p>Date de fin</p>
+            <p> 21/01/2023</p>
+        </div>
+        <div class="inRectangle">
+            <p>Lien du projet</p>
+            <a href="https://github.com/JulesBobeuf/FruitNinja/"> <i class='fab fa-github'></i> GitHub</a>
+        </div>
+    </div>
+    <div class="projectsContent">
+        <div class="colortest">
+            <h1 class="titreProjet"> Fruit Ninja </h1>
+            <h4>Contexte</h4>
+            <br>
+            <p>Tout en appréciant ce qu&#39;on m&#39;enseignait à l&#39;université, j&#39;ai décidé d&#39;acquérir des compétences aussi par moi-même. J&#39;ai acheté des cours Udemy pour m&#39;aider dans cet objectif car c&#39;était la meilleure option qui se présentait pour moi. L&#39;un des cours que j&#39;ai achetés nous a fait programmer un clone de Fruit Ninja avec Unity. C&#39;est de là où vient ce projet.</p>
+            <br><br>
+
+            <h4>Les bases</h4>
+            <br>
+            <p>Tout d&#39;abord, j&#39;ai dû m&#39;occuper des assets pour le jeu. On m&#39;a fourni des fichiers Blender pour chaque fruit ainsi que la bombe. J&#39;ai programmé une classe pour eux ainsi que des &#39;prefabs&#39; : je leur ai donné un RigidBody 2D comme ainsi qu&#39;un Collider 2D afin de pouvoir les couper plus tard. Je pouvais donc réutiliser les mêmes fruits encore et encore. J&#39;ai également créé le code des bombes afin qu&#39;elles arrêtent le jeu si l&#39;utilisateur interagit avec elles. Ensuite, j&#39;ai fait une lame qui a été placée sur la souris de l&#39;utilisateur. J&#39;ai pu réaliser cette lame avec une simple configuration RigidBody 2D / Collider et un Trail Renderer pour afficher la lame avec une belle animation. Grâce à quelques scripts back-end pour gérer le jeu, J&#39;avais déjà la plupart en état de marche.</p>
+            <br><br>
+
+            <div> 
+                <figure>
+                    <img class="imgprojects" src="/images/fruitN.png" alt="">
+                </figure>
+            </div>
+            <br> <br>
+
+            <h4>Les spawners</h4>
+            <br>
+            <p>Pour que l&#39;utilisateur puisse jouer au jeu indéfiniment, j&#39;avais besoin d&#39;implémenter des spawners pour que le jeu soit infini. J&#39;ai créé cette fonctionnalité en utilisant de simples GameObjects et beaucoup de code back-end. Toutes les X frame, un spawner fera apparaître un objet et le lancera à une vitesse aléatoire. Cela garantit l&#39;utilisateur que le jeu est sans fin, tant qu&#39;il ne touche pas de bombe.</p>
+            <br><br>
+
+            <div> 
+                <figure>
+                    <img class="imgprojects" src="/images/fruitNinjaEnd.png" alt="">
+                </figure>
+            </div>
+            <br> <br>
+
+            <h4>Résultat final</h4>
+            <br>
+            <p>J&#39;ai donc réalisé un clone du jeu Fruit Ninja qui fonctionne sur toutes les plateformes grâce à Unity. Le jeu possède toutes les fonctionnalités de base : le score ainsi que le meilleur score, un menu, plusieurs fruits qui donnent tous un nombre de points différent... Ce projet était vraiment amusant et il m&#39;a beaucoup appris sur Unity et C#, tout en me donnant vraiment envie de faire plus de projets avec ces outils.</p>
+            <br><br>
+
+            
+        </div>
+    </div>
+</body>
+<footer>
+        <p>Contact : bobeuf.jules@gmail.com</p>
+</footer>

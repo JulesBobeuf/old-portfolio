@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html><head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Jules BOBEUF</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link rel="stylesheet" href="/styles/style.css "/>
+        <link rel="stylesheet" href="/styles/navbar.css "/>
+        <link rel="stylesheet" href="/styles/dark.css "/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="icon" href="/images/mebw.png" type="image/icon type">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="/js/index.js" defer></script>     
+        <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>  
+</head>
+<body><header>
+    <nav class="navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="/" title="home" class="navbar-item">
+                    <span class="logo">
+                        <p><strong>Jules BOBEUF</strong></p>
+                    </span></a>
+                    <a href="/files/cv_en.pdf"class="navbar-item is-hidden-desktop"
+                    title="CV">
+                    <span class="icon">CV</span></a><a href="https://github.com/JulesBobeuf"class="navbar-item is-hidden-desktop"
+                    title="GitHub">
+                    <span class="icon"><i class='fab fa-github'></i></span></a><a href="https://www.linkedin.com/in/jules-bobeuf"class="navbar-item is-hidden-desktop"
+                    title="Linkedin">
+                    <span class="icon"><i class='fab fa-linkedin'></i></span></a>
+                        <a role="button" class="navbar-burger" aria-expanded="false">
+                            <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></a>
+
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-start"><a href="/projects"class="navbar-item">Projects</a>
+                        
+                </div>
+                <div class="navbar-end">
+                    
+                    <a href="/files/cv_en.pdf"class="navbar-item is-hidden-touch" title="CV">
+                    <span class="icon">CV</span></a>
+                    <a href="https://github.com/JulesBobeuf"class="navbar-item is-hidden-touch" title="GitHub">
+                    <span class="icon"><i class='fab fa-github'></i></span></a>
+                    <a href="https://www.linkedin.com/in/jules-bobeuf"class="navbar-item is-hidden-touch" title="Linkedin">
+                    <span class="icon"><i class='fab fa-linkedin'></i></span></a>
+                    <div class="div-language">
+                        <a id="uselesslang">Languages</a>
+                        <ul class="ul-language"> 
+                        
+                            <li class="li-language"><a href="/"> English</a> </li>
+                        
+                            <li class="li-language"><a href="/fr/"> Français</a> </li>
+                        
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header><div id="content">
+<div class="container">
+    <div class="section">
+        <h1 class=titre>Projects</h1>
+        <br>
+        <p>Here is a list of all my projects. You can click on them to read their articles.</p>
+        <br>
+        <select class="triProject">
+            <option value="All">All projects</option>
+            <option value="Application">Applications</option>
+            <option value="Website">Websites</option>
+            <option value="Video Game">Video Games</option>
+        </select>
+        <br>
+        <div class="columns is-multiline" id="projects">
+                
+            <div class="column is-third">
+                <a class="projectsA" href="/projects/space-invaders-game/" data-category="Video Game">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-3by2">
+        <img src="/images/tempSpaceInvaders.png" alt="">
+      </figure>
+    </div>
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+          <figure class="image is-48x48" id="imageThumbnailProjects">
+            <img src="/images/game.png" alt="">
+          </figure>
+          <p class="technologies" id="firstTech">Java</p>
+          <p class="technologies">JavaFX</p>
+          <p class="technologies"></p>
+          <p class="technologies"></p>
+        </div>
+        <div class="media-content">
+          <p class="title is-4">Space Invaders Game</p>
+          <p class="subtitle is-6">Made a space invaders game with multiple game levels using design patterns.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+            </div>
+            
+            <div class="column is-third">
+                <a class="projectsA" href="/projects/fractals/" data-category="Application">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-3by2">
+        <img src="/images/fractals.jpg" alt="">
+      </figure>
+    </div>
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+          <figure class="image is-48x48" id="imageThumbnailProjects">
+            <img src="/images/app.jpg" alt="">
+          </figure>
+          <p class="technologies" id="firstTech">Java</p>
+          <p class="technologies">Bash</p>
+          <p class="technologies"></p>
+          <p class="technologies"></p>
+        </div>
+        <div class="media-content">
+          <p class="title is-4">Fractals Generation</p>
+          <p class="subtitle is-6">Created an application that generates fractals.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+            </div>
+            
+            <div class="column is-third">
+                <a class="projectsA" href="/projects/fruit-ninja/" data-category="Video Game">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-3by2">
+        <img src="/images/fruitNinja.png" alt="">
+      </figure>
+    </div>
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+          <figure class="image is-48x48" id="imageThumbnailProjects">
+            <img src="/images/game.png" alt="">
+          </figure>
+          <p class="technologies" id="firstTech">C#</p>
+          <p class="technologies">Unity</p>
+          <p class="technologies"></p>
+          <p class="technologies"></p>
+        </div>
+        <div class="media-content">
+          <p class="title is-4">Fruit Ninja</p>
+          <p class="subtitle is-6">Fruit ninja clone that is adapted to most operating systems.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+            </div>
+            
+            <div class="column is-third">
+                <a class="projectsA" href="/projects/marathon/" data-category="Website">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-3by2">
+        <img src="/images/marathonLogo.png" alt="">
+      </figure>
+    </div>
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+          <figure class="image is-48x48" id="imageThumbnailProjects">
+            <img src="/images/web96.png" alt="">
+          </figure>
+          <p class="technologies" id="firstTech">PHP</p>
+          <p class="technologies">Laravel</p>
+          <p class="technologies">HTML</p>
+          <p class="technologies">CSS</p>
+        </div>
+        <div class="media-content">
+          <p class="title is-4">Marathon project</p>
+          <p class="subtitle is-6">Programmed a website within 2 days that displays an art gallery.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+            </div>
+            
+            <div class="column is-third">
+                <a class="projectsA" href="/projects/application-gestion-vente/" data-category="Application">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-3by2">
+        <img src="/images/nekleo.png" alt="">
+      </figure>
+    </div>
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+          <figure class="image is-48x48" id="imageThumbnailProjects">
+            <img src="/images/app.jpg" alt="">
+          </figure>
+          <p class="technologies" id="firstTech">Java</p>
+          <p class="technologies">JavaFX</p>
+          <p class="technologies"></p>
+          <p class="technologies"></p>
+        </div>
+        <div class="media-content">
+          <p class="title is-4">Stock / Sales management Application</p>
+          <p class="subtitle is-6">Creation of a stock / sales management app.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+            </div>
+            
+            <div class="column is-third">
+                <a class="projectsA" href="/projects/discord-bot/" data-category="Application">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-3by2">
+        <img src="/images/vlrs.png" alt="">
+      </figure>
+    </div>
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+          <figure class="image is-48x48" id="imageThumbnailProjects">
+            <img src="/images/discord.png" alt="">
+          </figure>
+          <p class="technologies" id="firstTech">Python</p>
+          <p class="technologies">PostgreSQL</p>
+          <p class="technologies"></p>
+          <p class="technologies"></p>
+        </div>
+        <div class="media-content">
+          <p class="title is-4">Discord bot</p>
+          <p class="subtitle is-6">Development of a Discord bot that handles community events.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+            </div>
+            
+            <div class="column is-third">
+                <a class="projectsA" href="/projects/site-web/" data-category="Website">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-3by2">
+        <img src="/images/websitehomepage.png" alt="">
+      </figure>
+    </div>
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+          <figure class="image is-48x48" id="imageThumbnailProjects">
+            <img src="/images/web96.png" alt="">
+          </figure>
+          <p class="technologies" id="firstTech">HTML</p>
+          <p class="technologies">CSS</p>
+          <p class="technologies"></p>
+          <p class="technologies"></p>
+        </div>
+        <div class="media-content">
+          <p class="title is-4">My first website</p>
+          <p class="subtitle is-6">Created a showcase website for an event company.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+            </div>
+            
+            <div class="column is-third">
+                <a class="projectsA" href="/projects/weather-app/" data-category="Website">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-3by2">
+        <img src="/images/msi.png" alt="">
+      </figure>
+    </div>
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+          <figure class="image is-48x48" id="imageThumbnailProjects">
+            <img src="/images/web96.png" alt="">
+          </figure>
+          <p class="technologies" id="firstTech">Python</p>
+          <p class="technologies">Flask</p>
+          <p class="technologies">HTML</p>
+          <p class="technologies">CSS</p>
+        </div>
+        <div class="media-content">
+          <p class="title is-4">Weather app</p>
+          <p class="subtitle is-6">Development of a website that displays atmospheric data through an API.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+            </div>
+            
+        </div>
+        <div class="columns is-centered">
+            <div class="column is-narrow">
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        </div><footer>
+        <p>Contact : bobeuf.jules@gmail.com</p>
+</footer></body>
+</html>

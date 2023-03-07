@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Jules BOBEUF</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="icon" href="/images/mebw.png" type="image/icon type">
+    <link rel="stylesheet" href="/styles/projets.css "/> 
+    <link rel="stylesheet" href="/styles/navbar.css "/>
+    <link rel="stylesheet" href="/styles/dark.css "/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/js/index.js" defer></script>     
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>      
+</head>
+
+<header>
+    <nav class="navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="/" title="home" class="navbar-item">
+                    <span class="logo">
+                        <p><strong>Jules BOBEUF</strong></p>
+                    </span></a>
+                    <a href="/files/cv_en.pdf"class="navbar-item is-hidden-desktop"
+                    title="CV">
+                    <span class="icon">CV</span></a><a href="https://github.com/JulesBobeuf"class="navbar-item is-hidden-desktop"
+                    title="GitHub">
+                    <span class="icon"><i class='fab fa-github'></i></span></a><a href="https://www.linkedin.com/in/jules-bobeuf"class="navbar-item is-hidden-desktop"
+                    title="Linkedin">
+                    <span class="icon"><i class='fab fa-linkedin'></i></span></a>
+                        <a role="button" class="navbar-burger" aria-expanded="false">
+                            <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></a>
+
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-start"><a href="/projects"class="navbar-item">Projects</a>
+                        
+                </div>
+                <div class="navbar-end">
+                    
+                    <a href="/files/cv_en.pdf"class="navbar-item is-hidden-touch" title="CV">
+                    <span class="icon">CV</span></a>
+                    <a href="https://github.com/JulesBobeuf"class="navbar-item is-hidden-touch" title="GitHub">
+                    <span class="icon"><i class='fab fa-github'></i></span></a>
+                    <a href="https://www.linkedin.com/in/jules-bobeuf"class="navbar-item is-hidden-touch" title="Linkedin">
+                    <span class="icon"><i class='fab fa-linkedin'></i></span></a>
+                    <div class="div-language">
+                        <a id="uselesslang">Languages</a>
+                        <ul class="ul-language"> 
+                        
+                            <li class="li-language"><a href="/"> English</a> </li>
+                        
+                            <li class="li-language"><a href="/fr/"> Français</a> </li>
+                        
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div class="rectangle">
+        <div class="inRectangle">
+            <p>Type</p>
+            <p>Udemy Project</p>
+        </div>
+        <div class="inRectangle">
+            <p>Contributors</p>
+            <p> 1 </p>
+        </div>
+        <div class="inRectangle">
+            <p>End date</p>
+            <p> 21/01/2023</p>
+        </div>
+        <div class="inRectangle">
+            <p>Project Link</p>
+            <a href="https://github.com/JulesBobeuf/FruitNinja/"> <i class='fab fa-github'></i> GitHub</a>
+        </div>
+    </div>
+    <div class="projectsContent">
+        <div class="colortest">
+            <h1 class="titreProjet"> Fruit Ninja </h1>
+            <h4>Context</h4>
+            <br>
+            <p>While i was enjoying what I was taught at university, I decided to learn skills on my own as well to grow my skills. I bought Udemy courses to help me in this goal as those were the best option for me. One of the courses I bought made us program a Fruit Ninja clone with Unity, which is where this project comes from.</p>
+            <br><br>
+
+            <h4>Basics</h4>
+            <br>
+            <p>First things first, I had to deal with the assets within the game. I was given blender files for each fruit as well as the bomb. I programmed the class for them as well as prefabs : I gave them a RigidBody 2D as well as a 2D Collider in order to slice them later on. I could now re-use the same fruits over and over again. I also made the code for the bombs in order in for them to stop the game if the user interacts with them. Then, I made a blade which was set on the user&#39;s mouse which I got to work with a simple RigidBody 2D / Collider setup and a Trail Renderer to display the blade with a great animation. Thanks to some back-end scripts to handle the game, I already had most of it working.</p>
+            <br><br>
+
+            <div> 
+                <figure>
+                    <img class="imgprojects" src="/images/fruitN.png" alt="">
+                </figure>
+            </div>
+            <br> <br>
+
+            <h4>Spawners</h4>
+            <br>
+            <p>For the user to play the game indefinitely, I needed to implement spawners for the game to be infinite. I made that functionality by using simple GameObjects and a lot of back-end code. Every X amount of frame, a spawner is going to spawn an object and throw it at a random speed. This ensures the user that the game will continue on and on, till he hits a bomb.</p>
+            <br><br>
+
+            <div> 
+                <figure>
+                    <img class="imgprojects" src="/images/fruitNinjaEnd.png" alt="">
+                </figure>
+            </div>
+            <br> <br>
+
+            <h4>Final result</h4>
+            <br>
+            <p>I now have a Fruit Ninja game that works on all platforms thanks to Unity! It possesses all basics features: a score and a high score, a menu, multiple fruits that all give a different number of points... This project was a really fun one to work on. It taught me a lot about Unity and C#, and definitely makes me want to do more projects.</p>
+            <br><br>
+
+            
+        </div>
+    </div>
+</body>
+<footer>
+        <p>Contact : bobeuf.jules@gmail.com</p>
+</footer>

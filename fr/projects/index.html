@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html><head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Jules BOBEUF</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link rel="stylesheet" href="/styles/style.css "/>
+        <link rel="stylesheet" href="/styles/navbar.css "/>
+        <link rel="stylesheet" href="/styles/dark.css "/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="icon" href="/images/mebw.png" type="image/icon type">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="/js/index.js" defer></script>     
+        <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>  
+</head>
+<body><header>
+    <nav class="navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="/" title="home" class="navbar-item">
+                    <span class="logo">
+                        <p><strong>Jules BOBEUF</strong></p>
+                    </span></a>
+                    <a href="/files/cv_fr.pdf"class="navbar-item is-hidden-desktop"
+                    title="CV">
+                    <span class="icon">CV</span></a><a href="https://github.com/JulesBobeuf"class="navbar-item is-hidden-desktop"
+                    title="GitHub">
+                    <span class="icon"><i class='fab fa-github'></i></span></a><a href="https://www.linkedin.com/in/jules-bobeuf"class="navbar-item is-hidden-desktop"
+                    title="Linkedin">
+                    <span class="icon"><i class='fab fa-linkedin'></i></span></a>
+                        <a role="button" class="navbar-burger" aria-expanded="false">
+                            <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></a>
+
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-start"><a href="/fr/projects"class="navbar-item">Projets</a>
+                        
+                </div>
+                <div class="navbar-end">
+                    
+                    <a href="/files/cv_fr.pdf"class="navbar-item is-hidden-touch" title="CV">
+                    <span class="icon">CV</span></a>
+                    <a href="https://github.com/JulesBobeuf"class="navbar-item is-hidden-touch" title="GitHub">
+                    <span class="icon"><i class='fab fa-github'></i></span></a>
+                    <a href="https://www.linkedin.com/in/jules-bobeuf"class="navbar-item is-hidden-touch" title="Linkedin">
+                    <span class="icon"><i class='fab fa-linkedin'></i></span></a>
+                    <div class="div-language">
+                        <a id="uselesslang">Languages</a>
+                        <ul class="ul-language"> 
+                        
+                            <li class="li-language"><a href="/"> English</a> </li>
+                        
+                            <li class="li-language"><a href="/fr/"> Français</a> </li>
+                        
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header><div id="content">
+<div class="container">
+    <div class="section">
+        <h1 class=titre>Projets</h1>
+        <br>
+        <p>Vous pouvez trouver ici la liste de mes projets. Vous pouvez cliquer sur chacun d'entre eux pour lire leur article.</p>
+        <br>
+        <select class="triProject">
+            <option value="All">Tous les projets</option>
+            <option value="Application">Applications</option>
+            <option value="Website">Sites web</option>
+            <option value="Video Game">Jeux vidéo</option>
+        </select>
+        <br>
+        <div class="columns is-multiline" id="projects">
+                
+            <div class="column is-third">
+                <a class="projectsA" href="/fr/projects/space-invaders-game/" data-category="Video Game">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-3by2">
+        <img src="/images/tempSpaceInvaders.png" alt="">
+      </figure>
+    </div>
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+          <figure class="image is-48x48" id="imageThumbnailProjects">
+            <img src="/images/game.png" alt="">
+          </figure>
+          <p class="technologies" id="firstTech">Java</p>
+          <p class="technologies">JavaFX</p>
+          <p class="technologies"></p>
+          <p class="technologies"></p>
+        </div>
+        <div class="media-content">
+          <p class="title is-4">Jeu Space Invaders</p>
+          <p class="subtitle is-6">Création d&#39;un jeu Space Invaders avec plusieurs niveau de jeu en utilisant les patrons de conceptions.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+            </div>
+            
+            <div class="column is-third">
+                <a class="projectsA" href="/fr/projects/fractals/" data-category="Application">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-3by2">
+        <img src="/images/fractals.jpg" alt="">
+      </figure>
+    </div>
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+          <figure class="image is-48x48" id="imageThumbnailProjects">
+            <img src="/images/app.jpg" alt="">
+          </figure>
+          <p class="technologies" id="firstTech">Java</p>
+          <p class="technologies">Bash</p>
+          <p class="technologies"></p>
+          <p class="technologies"></p>
+        </div>
+        <div class="media-content">
+          <p class="title is-4">Génération de fractales</p>
+          <p class="subtitle is-6">Création d&#39;un programme générant des fractales.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+            </div>
+            
+            <div class="column is-third">
+                <a class="projectsA" href="/fr/projects/fruit-ninja/" data-category="Video game">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-3by2">
+        <img src="/images/fruitNinja.png" alt="">
+      </figure>
+    </div>
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+          <figure class="image is-48x48" id="imageThumbnailProjects">
+            <img src="/images/game.png" alt="">
+          </figure>
+          <p class="technologies" id="firstTech">C#</p>
+          <p class="technologies">Unity</p>
+          <p class="technologies"></p>
+          <p class="technologies"></p>
+        </div>
+        <div class="media-content">
+          <p class="title is-4">Fruit Ninja</p>
+          <p class="subtitle is-6">Un clone du jeu Fruit Ninja qui est adapté à la plupart des systèmes d&#39;exploitation.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+            </div>
+            
+            <div class="column is-third">
+                <a class="projectsA" href="/fr/projects/marathon/" data-category="Website">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-3by2">
+        <img src="/images/marathonLogo.png" alt="">
+      </figure>
+    </div>
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+          <figure class="image is-48x48" id="imageThumbnailProjects">
+            <img src="/images/web96.png" alt="">
+          </figure>
+          <p class="technologies" id="firstTech">PHP</p>
+          <p class="technologies">Laravel</p>
+          <p class="technologies">HTML</p>
+          <p class="technologies">CSS</p>
+        </div>
+        <div class="media-content">
+          <p class="title is-4">Projet Marathon</p>
+          <p class="subtitle is-6">Programmation d&#39;un site web en 2 jours qui représente une gallerie d&#39;art.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+            </div>
+            
+            <div class="column is-third">
+                <a class="projectsA" href="/fr/projects/application-gestion-vente/" data-category="Application">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-3by2">
+        <img src="/images/nekleo.png" alt="">
+      </figure>
+    </div>
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+          <figure class="image is-48x48" id="imageThumbnailProjects">
+            <img src="/images/app.jpg" alt="">
+          </figure>
+          <p class="technologies" id="firstTech">Java</p>
+          <p class="technologies">JavaFX</p>
+          <p class="technologies"></p>
+          <p class="technologies"></p>
+        </div>
+        <div class="media-content">
+          <p class="title is-4">Application gestion vente</p>
+          <p class="subtitle is-6">Création d&#39;une application de Gestion / Vente pour une entreprise.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+            </div>
+            
+            <div class="column is-third">
+                <a class="projectsA" href="/fr/projects/discord-bot/" data-category="Application">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-3by2">
+        <img src="/images/vlrs.png" alt="">
+      </figure>
+    </div>
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+          <figure class="image is-48x48" id="imageThumbnailProjects">
+            <img src="/images/discord.png" alt="">
+          </figure>
+          <p class="technologies" id="firstTech">Python</p>
+          <p class="technologies">PostgreSQL</p>
+          <p class="technologies"></p>
+          <p class="technologies"></p>
+        </div>
+        <div class="media-content">
+          <p class="title is-4">Discord bot</p>
+          <p class="subtitle is-6">Développement d&#39;un bot discord permettant de gérer des évènements communautaires.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+            </div>
+            
+            <div class="column is-third">
+                <a class="projectsA" href="/fr/projects/site-web/" data-category="Website">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-3by2">
+        <img src="/images/websitehomepage.png" alt="">
+      </figure>
+    </div>
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+          <figure class="image is-48x48" id="imageThumbnailProjects">
+            <img src="/images/web96.png" alt="">
+          </figure>
+          <p class="technologies" id="firstTech">HTML</p>
+          <p class="technologies">CSS</p>
+          <p class="technologies"></p>
+          <p class="technologies"></p>
+        </div>
+        <div class="media-content">
+          <p class="title is-4">Mon premier site web</p>
+          <p class="subtitle is-6">Création d&#39;un site vitrine pour une application dans l&#39;événementiel.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+            </div>
+            
+            <div class="column is-third">
+                <a class="projectsA" href="/fr/projects/weather-app/" data-category="Website">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-3by2">
+        <img src="/images/msi.png" alt="">
+      </figure>
+    </div>
+    <div class="card-content">
+      <div class="media">
+        <div class="media-left">
+          <figure class="image is-48x48" id="imageThumbnailProjects">
+            <img src="/images/web96.png" alt="">
+          </figure>
+          <p class="technologies" id="firstTech">Python</p>
+          <p class="technologies">Flask</p>
+          <p class="technologies">HTML</p>
+          <p class="technologies">CSS</p>
+        </div>
+        <div class="media-content">
+          <p class="title is-4">Application températures </p>
+          <p class="subtitle is-6">Dévelopement d&#39;un site web utilisant une API pour afficher des données atmosphériques.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>
+            </div>
+            
+        </div>
+        <div class="columns is-centered">
+            <div class="column is-narrow">
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        </div><footer>
+        <p>Contact : bobeuf.jules@gmail.com</p>
+</footer></body>
+</html>

@@ -1,0 +1,75 @@
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-end {
+    align-items: center;
+}
+
+.logo p:hover {
+    color: rgb(14, 110, 255);
+}
+
+.div-language .ul-language{
+    position: absolute;
+    color: black;
+}
+
+.div-language:hover .ul-language , .ul-language:hover{
+    display: block;
+    text-align: left;
+    color: rgb(14, 110, 255);
+}
+
+.navbar-item:hover {
+    transform: .75s;
+    -webkit-transform: scale(1.06);
+    color: rgb(14, 110, 255);
+    background-color: transparent;
+}
+
+a.navbar-item:hover {
+    background-color: transparent;
+}
+
+.div-language{
+    position: relative;
+    padding: 0.75rem;
+}
+
+.ul-language{
+    display: none;
+}
+
+@media(max-width: 950px){
+    .navbar-menu.is-active {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .li-language {
+        padding-bottom: 0.95rem;
+    }
+
+    .div-language {
+        padding: 0.55rem;
+    }
+
+    .div-language .ul-language , .ul-language, .li-language{
+        display: block;
+        text-align: left;
+        color: rgb(14, 110, 255);
+        background-color: transparent;
+    }
+
+    #uselesslang {
+        display: none;
+        padding-bottom: 1rem;
+    }
+} 
+
+strong {
+    font-weight: normal;
+}
+
+
