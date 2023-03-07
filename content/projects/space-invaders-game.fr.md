@@ -22,7 +22,7 @@ link: "https://github.com/JulesBobeuf/SpaceInvaders/"
 
 context: "Contexte"
 
-contextParagraph: "Durant notre cours 'Qualité de développement, nous avions appris à développer proprement et efficacement. L'un des thèmes principaux était 'les patrons de conceptions', et quoi de mieux que de les implémenter dans un jeu vidéo ? "
+contextParagraph: "Durant notre cours 'Qualité de développement', nous avions appris à développer proprement et efficacement. L'un des thèmes principaux était 'les patrons de conceptions', et quoi de mieux que de les implémenter dans un jeu vidéo ? "
 
 p1: "Projet de base"
 
