@@ -1,3 +1,5 @@
+@import url('settings.css');
+
 .navbar {
     background-color: transparent;
 }
@@ -7,7 +9,7 @@
 }
 
 .logo p:hover {
-    color: rgb(14, 110, 255);
+    color: var(--hover-color);
 }
 
 .div-language .ul-language{
@@ -18,13 +20,13 @@
 .div-language:hover .ul-language , .ul-language:hover{
     display: block;
     text-align: left;
-    color: rgb(14, 110, 255);
+    color: var(--hover-color);
 }
 
 .navbar-item:hover {
     transform: .75s;
     -webkit-transform: scale(1.06);
-    color: rgb(14, 110, 255);
+    color: var(--hover-color);
     background-color: transparent;
 }
 
@@ -58,7 +60,7 @@ a.navbar-item:hover {
     .div-language .ul-language , .ul-language, .li-language{
         display: block;
         text-align: left;
-        color: rgb(14, 110, 255);
+        color: var(--hover-color);
         background-color: transparent;
     }
 

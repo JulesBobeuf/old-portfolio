@@ -1,3 +1,5 @@
+@import url('settings.css');
+
 .navbar {
     background-color: transparent;
 }
@@ -7,29 +9,30 @@
 }
 
 .logo p:hover {
-    color: rgb(14, 110, 255);
+    color: var(--hover-color);
 }
 
 .div-language .ul-language{
     position: absolute;
-    color: black;
+    color: var(--text-color);;
 }
 
 .div-language:hover .ul-language , .ul-language:hover{
     display: block;
     text-align: left;
-    color: rgb(14, 110, 255);
+    color: var(--hover-color);
 }
 
 .navbar-item:hover {
     transform: .75s;
-    -webkit-transform: scale(1.06);
-    color: rgb(14, 110, 255);
+    -webkit-transform: scale(var(--scale-amount));
+    color: var(--hover-color);
     background-color: transparent;
 }
 
 a.navbar-item:hover {
     background-color: transparent;
+    color: var(--hover-color);
 }
 
 .div-language{
@@ -58,7 +61,7 @@ a.navbar-item:hover {
     .div-language .ul-language , .ul-language, .li-language{
         display: block;
         text-align: left;
-        color: rgb(14, 110, 255);
+        color: var(--hover-color);
         background-color: transparent;
     }
 

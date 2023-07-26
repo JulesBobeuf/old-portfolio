@@ -1,3 +1,5 @@
+@import url('settings.css');
+
 .darkmode--activated body,
 .darkmode--activated p,
 .darkmode--activated body p,
@@ -15,51 +17,55 @@
 .darkmode--activated .projectsContent,
 .darkmode--activated .titre{
     isolation: isolate;
-    color: rgb(224, 215, 215);
+    color: var(--darkmode-text-color);
 }
 
 .darkmode--activated #content {
-    background:transparent;
+    background: transparent;
 }
 
 .darkmode--activated .card-content {
-    color: rgb(224, 215, 215);
+    color: var(--darkmode-text-color);
 }
 
 .darkmode--activated nav i:hover,
 .darkmode--activated a:hover,
 .darkmode--activated .logo p:hover {
-    color: rgb(14, 110, 255);
+    color: var(--hover-color);
     background-color: transparent;
 }
 
 .darkmode--activated nav a:hover{
-    color: rgb(14, 110, 255);
+    color: var(--hover-color);
     background-color: transparent;
 }
 
 .darkmode--activated .card{
-    box-shadow: 2px 3px 10px 1px rgba(86, 86, 86, 0.5);
-    -moz-box-shadow: 2px 3px 10px 1px rgba(86, 86, 86, 0.5);
-    -webkit-box-shadow: 2px 3px 10px 1px rgba(86, 86, 86, 0.5);
+    box-shadow: 2px 3px 10px 1px var(--darkmode-shadow-color);
+    -moz-box-shadow: 2px 3px 10px 1px var(--darkmode-shadow-color);
+    -webkit-box-shadow: 2px 3px 10px 1px var(--darkmode-shadow-color);
     background-color: transparent;
 }
 
 .darkmode--activated .rectangle, .darkmode--activated  .colortest{
-    box-shadow:0.3rem 0.2rem 0.5rem 0.1rem rgba(86, 86, 86, 0.5);
-    -moz-box-shadow: 0.3rem 0.2rem 0.5rem 0.1rem rgba(86, 86, 86, 0.5);
-    -webkit-box-shadow: 0.3rem 0.2rem 0.5rem 0.1rem rgba(86, 86, 86, 0.5);
-    background-color: rgba(38, 38, 38, 0.5);
+    box-shadow:0.3rem 0.2rem 0.5rem 0.1rem var(--darkmode-shadow-color);
+    -moz-box-shadow: 0.3rem 0.2rem 0.5rem 0.1rem var(--darkmode-shadow-color);
+    -webkit-box-shadow: 0.3rem 0.2rem 0.5rem 0.1rem var(--darkmode-shadow-color);
+    background-color: var(--darkmode-article-bg-color);
     isolation: isolate;
+}
+
+.darkmode--activated .projectBody {
+    background-color: var(--darkmode-article-bg-color);
 }
 
 .darkmode--activated .error404 {
     isolation: isolate;
-    color: rgb(224, 215, 215);
+    color: var(--darkmode-text-color);
 }
 
 .darkmode--activated .triProject {
-    color: rgb(224, 215, 215);
+    color: var(--darkmode-text-color);
 }
 
 .darkmode--activated .darkmode-toggle, .darkmode-toggle  {
@@ -67,7 +73,7 @@
 }
 
 .darkmode--activated option {
-    color: black;
+    color: var(--text-color);
 }
 
 .darkmode--activated footer {
@@ -80,30 +86,4 @@
 
 .darkmode--activated .triProject {
     border-color: white;
-}
-
-/* Hangman */
-
-.formHangman input[type="text"] {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.formHangman button[type="submit"] {
-    box-shadow: 0 2px 4px rgba(224, 224, 224, 0.2);
-}
-
-.darkmode--activated .game-container {
-    color: white;
-    background-color: transparent;
-}
-
-.darkmode--activated .about-me .homepageA {
-    isolation: isolate;
-    mix-blend-mode: plus-lighter;
-}
-
-@media(max-width: 1250px) {
-    .darkmode--activated .content h3 {
-        color: white;
-    }
 }

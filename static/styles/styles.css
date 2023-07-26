@@ -1,19 +1,4 @@
-*,
-*::before,
-*::after {
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    font-family: 'Roboto', sans-serif;
-    color: black;
-    background-color: rgb(248, 237, 225);
-}
+@import url('settings.css');
 
 strong {
     font-weight: normal;
@@ -32,48 +17,25 @@ main {
     flex: 1;    
 }
 
-h1 {
-    font-size: 3.5rem;
-}
-
-h2 {
-    font-size: 3rem;
-}
-
-h3 {
-    font-size: 2.5rem;
-}
-
-h4 {
-    font-size: 2rem;
-}
-
-footer {
-    z-index: 0;
-    position: relative;
-    background-color: transparent;
-    padding: 5rem;
-    text-align: center;
-}
 .titre {
     font-size: 3rem;
     text-align: center;
-    color: black;
+    color: var(--text-color);;
     margin-top: -2rem;
     margin-bottom: 0.5rem;
 }
 
 .page-link {
     padding: 0.1rem;
-    color: black;
+    color: var(--text-color);;
 }
 
 .page-link:hover {
     background-color: transparent;
-    color: rgb(14, 110, 255);
+    color: var(--hover-color);
 }
 
-.Competences {
+.competences {
     align-items:baseline;
 }
 
@@ -99,7 +61,7 @@ footer {
 
 .error404 {
     text-align: center;
-    color: black;
+    color: var(--text-color);;
     margin: 2rem;
     background-color: transparent;
 }
@@ -137,17 +99,17 @@ footer {
 }
     
 .btn:hover {
-    background: rgb(14, 110, 255);
+    background: var(--hover-color);
 }
 
 a:hover,
 i:hover{
-    color: rgb(14, 110, 255);
+    color: var(--hover-color);
 }
 
 a,
 i{
-    color: black;
+    color: var(--text-color);;
 }
 
 .triProject {
@@ -162,7 +124,7 @@ i{
     margin-bottom: 1.5rem;
     width: 12%;
     text-align: center;
-    color:black;
+    color:var(--text-color);;
     isolation: isolate;
 
     text-align-last: center;
@@ -173,11 +135,11 @@ i{
 }
 
 .triProject:hover {
-    border-color: #999;
+    border-color: var(--hover-color);
 }
 
 .triProject:focus {
-    border-color: #666;
+    border-color: var(--hover-color);
     box-shadow: 0 0 2px #666;
 }
 
@@ -199,7 +161,7 @@ option {
 }
 
 .projectsA:hover {
-    color: black;
+    color: var(--text-color);
 }
 
 .card-content figure {
@@ -217,9 +179,9 @@ option {
 }
 
 .card:hover {
-    -ms-transform: scale(1.05); /* IE 9 */
-    -webkit-transform: scale(1.05); /* Safari 3-8 */
-    transform: scale(1.05); 
+    -ms-transform: scale(var(--scale-amount)); /* IE 9 */
+    -webkit-transform: scale(var(--scale-amount)); /* Safari 3-8 */
+    transform: scale(var(--scale-amount)); 
 }
 
 .technologies {
@@ -323,16 +285,16 @@ hr {
 }
 
 .homepageH3 {
-    color: black;
+    color: var(--text-color);
 }
 @media (min-width:1251px) {
     .skillContainer:hover .onSkillHover p {
-        color:black;
+        color:var(--text-color);
     }
     
     .skillContainer:hover .onSkillHover {
         opacity: 100%;
-        background-color: rgb(248, 237, 225);
+        background-color: var(--background-color);
         border-radius: 2rem 2rem 2rem 0;
         padding: 1rem;
         border: 2px solid rgb(7, 18, 30);
@@ -388,6 +350,6 @@ hr {
     }
 
     .content h3 {
-        color: black;
+        color: var(--text-color);
     }
 }

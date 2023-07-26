@@ -1,19 +1,4 @@
-*,
-*::before,
-*::after {
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    font-family: 'Roboto', sans-serif;
-    color: black;
-    background-color: rgb(248, 237, 225);
-}
+@import url('settings.css');
 
 strong {
     font-weight: normal;
@@ -70,7 +55,7 @@ footer {
 
 .page-link:hover {
     background-color: transparent;
-    color: rgb(14, 110, 255);
+    color: var(--hover-color);
 }
 
 .Competences {
@@ -137,12 +122,12 @@ footer {
 }
     
 .btn:hover {
-    background: rgb(14, 110, 255);
+    background: var(--hover-color);
 }
 
 a:hover,
 i:hover{
-    color: rgb(14, 110, 255);
+    color: var(--hover-color);
 }
 
 a,
