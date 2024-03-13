@@ -273,8 +273,6 @@ hr {
 }
 
 .imgHomepage {
-    width: 20vh;
-    height: 20vh;
     margin: 0.5rem;
     object-fit: contain;
 }

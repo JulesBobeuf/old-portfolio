@@ -27,8 +27,7 @@ contextParagraph: "Thomas Santoro, Aymeric Jakobowski and I developed a web appl
 p1: "Retrieving data"
 
 p1Text: "The first thing we needed to do was to collect the data. For that, we used an API called wttr. (http://wttr.in) We received the data in a list, which after treatment, was sent into the database to store the informations.
-We fully coded the database with Python. We developed functions that would create and delete the tables, that would insert data, or that would retrieve it. In order to do this, we first thought about how the database would work, before writing the Python code.
-"
+We fully coded the database with Python. We developed functions that would create and delete the tables, that would insert data, or that would retrieve it. In order to do this, we first thought about how the database would work, before writing the Python code."
 
 p2: "Displaying data and automatization"
 

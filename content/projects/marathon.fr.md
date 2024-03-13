@@ -18,7 +18,7 @@ technologyImage: "/images/web96.png"
 projectType: "Projet Universitaire"
 nbContributors: "7"
 endDate: "16/12/2022"
-link: "https://github.com/JulesBobeuf/Marathon"
+link: "https://github.com/JulesBobeuf/LaToile"
 
 context: "Contexte"
 

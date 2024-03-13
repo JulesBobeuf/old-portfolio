@@ -18,7 +18,7 @@ technologyImage: "/images/web96.png"
 projectType: "University Project"
 nbContributors: "7"
 endDate: "16/12/2022"
-link: "https://github.com/JulesBobeuf/Marathon"
+link: "https://github.com/JulesBobeuf/LaToile"
 
 context: "Context"
 
@@ -31,7 +31,7 @@ p1Text: "We, IT Students, started with back-end obviously. We created the CRUD o
 
 p2: "Design"
 
-p2Text: "To follow our French theme, we decided to go fully in and make it obvious that our website was primary destined to the French audience: Our logo contains the French flag in it, and we based our website on the French metro. Indeed, when you get on the homepage, you can see a metro that moves forward, and when you click on 'visit the exhibition' you get to see that metro a bit bigger as well as a few metro stops which lead to a themed room of our exhibition, just like 3D, or IA."
+p2Text: "To follow our French theme, we decided to go fully in and make it obvious that our website was primary destined to the French audience: Our logo contains the French flag in it, and we based our website on the French metro. Indeed, when you get on the homepage, you can see a metro that moves forward, and when you click on 'visit the exhibition' you get to see that metro a bit bigger as well as a few metro stops which lead to a themed room of our exhibition, just like 3D, or AI."
 
 p3: "Final product"
 
