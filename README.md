@@ -5,9 +5,9 @@ It has now been replaced by this portfolio : [https://github.com/JulesBobeuf/por
 
 ## How to run locally:
 
-Step 1: Clone this repository
-Step 2: Install [Hugo](https://gohugo.io/installation/)
-Step 3: Execute `hugo serv` in the folder.
+- Clone this repository
+- Install [Hugo](https://gohugo.io/installation/)
+- Execute `hugo serv` in the folder.
 
 ## How to compile the web app?
 
