@@ -19,7 +19,6 @@ This project was created as a personal portfolio website using Hugo. It highligh
 
 ```markdown
 old-portfolio/
-├── 📁 assets/       # Assets like images and styles
 ├── 📁 content/      # Markdown content files for pages
 ├── 📁 layouts/      # Hugo templates and page layouts
 ├── 📁 static/       # Static files served as-is
