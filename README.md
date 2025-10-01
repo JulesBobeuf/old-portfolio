@@ -1,10 +1,12 @@
-# Old Portfolio
-
-**Old Portfolio** is a personal portfolio website built using **Hugo** to showcase projects, skills, and contact information. This is a previous iteration, demonstrating earlier designs and implementations.
+<div align="center">
+  <h1 align="center">Old Portfolio</h1>
+  <img src="assets/readme-old-portfolio.png" alt="Website Screenshot" width="600">  <p align="center">
+    My old portfolio, Built using Hugo, HTML, CSS & JavaScript.
+</div>
 
 ## About The Project
 
-This project was created as a personal portfolio website using Hugo. It highlights my projects, experience, and contact details. While it is an older version, it shows the evolution of my skills in web development.
+This project was created as a personal portfolio website using Hugo. It highlights my projects, experience, and contact details. This portfolio was made during my first year at university and has been updated for 2 years afterwards.
 
 ## Built With
 
